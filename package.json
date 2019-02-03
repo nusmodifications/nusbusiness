@@ -12,6 +12,7 @@
     "build": "parcel build *.html"
   },
   "devDependencies": {
+    "lodash": "^4.17.11",
     "parcel-bundler": "^1.11.0",
     "sass": "^1.16.1"
   },
