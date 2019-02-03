@@ -35,7 +35,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 const nearestToilets = toiletIndex
   .neighbors(lng, lat, 5)
-  .map(index => toilets[index]);
+  .map(index => clusters[index]);
 
 map.panTo(nearestToilets[0].location);
 
