@@ -1,0 +1,8444 @@
+[
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "BIZ1-05-MALE2",
+    "location": [
+      1.2923874758828389,
+      103.77437541421068
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "BIZ1-05-MALE1",
+    "location": [
+      1.2926171520765821,
+      103.77388280306955
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "BIZ1-05-HANDIC",
+    "location": [
+      1.292583773637986,
+      103.77391446936134
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "BIZ1-05-FEMALE1",
+    "location": [
+      1.2925868064957682,
+      103.77385993318792
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "BIZ1-05-FEMALE2",
+    "location": [
+      1.2924004533927393,
+      103.77440904902875
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "BIZ1-01-FEMALE1",
+    "location": [
+      1.2925828921585578,
+      103.77388778088995
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "BIZ1-01-MALE1",
+    "location": [
+      1.292618646735011,
+      103.77391033615646
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "BIZ1-01-TOILET",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "BIZ1-01-FEMALE2",
+    "location": [
+      1.2923913871795139,
+      103.77437202122644
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "BIZ1-01-MALE2",
+    "location": [
+      1.2924292731301579,
+      103.77438564494308
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "BIZ1-02-MALE2",
+    "location": [
+      1.2923913871795347,
+      103.774372022125
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "BIZ1-02-FEMALE2",
+    "location": [
+      1.2923940179847173,
+      103.77441114277958
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "BIZ1-02-MALE1",
+    "location": [
+      1.292622644293591,
+      103.7738833214005
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "BIZ1-02-WC",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "BIZ1-02-FEMALE1",
+    "location": [
+      1.2925837671488227,
+      103.77386934099246
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "BIZ1-03-MALE2",
+    "location": [
+      1.2923941539511088,
+      103.77438576256321
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "BIZ1-03-FEMALE2",
+    "location": [
+      1.2924292731301579,
+      103.77438564494308
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "BIZ1-03-MALE1",
+    "location": [
+      1.2926248059625058,
+      103.77389342814985
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "BIZ1-03-WC1",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "BIZ1-03-FEMALE1",
+    "location": [
+      1.2925788592679552,
+      103.77387377810658
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "BIZ1-04-MALE2",
+    "location": [
+      1.2923913871795347,
+      103.774372022125
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "BIZ1-04-FEMALE2",
+    "location": [
+      1.2924262337563237,
+      103.77439398707583
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "BIZ1-04-FEMALE1",
+    "location": [
+      1.292584215956411,
+      103.7738796481563
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "BIZ1-04-WC",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "BIZ1-04-MALE1",
+    "location": [
+      1.29261864673499,
+      103.77391033525791
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "BIZ1-06-MALE2",
+    "location": [
+      1.2923852765472978,
+      103.77437878019916
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "BIZ1-06-HANDIC",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "BIZ1-06-MALE1",
+    "location": [
+      1.2926187317397717,
+      103.77391010343213
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "BIZ1-06-FEMALE1",
+    "location": [
+      1.2925829771633337,
+      103.7738875481656
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "BIZ1-06-FEMALE2",
+    "location": [
+      1.2924226786701178,
+      103.77439270943125
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "BIZ1-07-MALE1",
+    "location": [
+      1.2923852765472978,
+      103.77437878019916
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "BIZ1-07-FEMALE1",
+    "location": [
+      1.2925829771633337,
+      103.7738875481656
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "BIZ1-07-FEMALE2",
+    "location": [
+      1.2924173785302668,
+      103.77440725964182
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "BIZ1-07-HANDIC",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "BIZ1-08-MALE2",
+    "location": [
+      1.2923852765472978,
+      103.77437878019916
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "BIZ1-08-MALE1",
+    "location": [
+      1.2926187317397717,
+      103.77391010343213
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "BIZ1-08-FEMALE1",
+    "location": [
+      1.2925829771633337,
+      103.7738875481656
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 8,
+    "code": "BIZ1-08-HANDIC",
+    "location": [
+      1.2925837736379646,
+      103.77391446846282
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "BIZ1-08-FEMALE2",
+    "location": [
+      1.2924226786701178,
+      103.77439270943125
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "BIZ2-01-MALE",
+    "location": [
+      1.2933640299599403,
+      103.7749466318001
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "BIZ2-01-FEMALE",
+    "location": [
+      1.2933843594182377,
+      103.7753888740459
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "BIZ2-02-MALE",
+    "location": [
+      1.2933639766082354,
+      103.77494688249462
+    ]
+  },
+  {
+    "name": "Male s",
+    "floor": 2,
+    "code": "BIZ2-02-MALE",
+    "location": [
+      1.2933843603226003,
+      103.77538887404589
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "BIZ2-03-FEMALE",
+    "location": [
+      1.293662018269116,
+      103.77460678281085
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "BIZ2-03-MALE2",
+    "location": [
+      1.2933639232438165,
+      103.77494658328128
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "BIZ2-03-FEMALE",
+    "location": [
+      1.2933843187212433,
+      103.7753888479891
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "BIZ2-04-MALE",
+    "location": [
+      1.293384429954116,
+      103.77538867636501
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "BIZ2-04-MALE",
+    "location": [
+      1.2936593513277186,
+      103.77460803364306
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "BIZ2-04-FEMALE2",
+    "location": [
+      1.2933700413882492,
+      103.77495174167227
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "BIZ2-05-MALE",
+    "location": [
+      1.2933697908800281,
+      103.77495177222843
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "BIZ2-05-FEMALE2",
+    "location": [
+      1.2933843594182581,
+      103.77538887494445
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "BIZ2-05-FEMALE1",
+    "location": [
+      1.293659675990995,
+      103.77460788178195
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "BIZ2-06-MALE",
+    "location": [
+      1.2936596777997,
+      103.77460788088337
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "COM1-01-FEMALE1",
+    "location": [
+      1.2951646148448912,
+      103.77386194339908
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "COM1-01-MALE1",
+    "location": [
+      1.2954329516845147,
+      103.77360214772081
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "COM1-01-MALE2",
+    "location": [
+      1.2947632742479265,
+      103.77374807504808
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "COM1-01-FEMALE2",
+    "location": [
+      1.2947935220285316,
+      103.77372720209375
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "COM1-01-HANDIC",
+    "location": [
+      1.2947861639731055,
+      103.77375921734149
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "COM2-01-FEMALE",
+    "location": [
+      1.2935313133562958,
+      103.77434226755533
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "COM2-01-MALE",
+    "location": [
+      1.2941074485126225,
+      103.77410616760918
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "COM2-01-FEMALE",
+    "location": [
+      1.2935313133562958,
+      103.77434226755533
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "COM2-01-MALE",
+    "location": [
+      1.2941074467036016,
+      103.77410615502963
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "HSS-01-FEMALE",
+    "location": [
+      1.2932506913944726,
+      103.7743633448485
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "HSS-01-MALE",
+    "location": [
+      1.293189569556082,
+      103.77438610094013
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "HSS-01-HANDIC",
+    "location": [
+      1.2932194781521293,
+      103.7743628962978
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "HSS-B1-FEMALE",
+    "location": [
+      1.2931420230924984,
+      103.77463995276531
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": -1,
+    "code": "HSS-B1-HANDIC",
+    "location": [
+      1.2931306373943217,
+      103.774611806195
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": -1,
+    "code": "HSS-B1-MALE",
+    "location": [
+      1.2931196213503957,
+      103.77465146450288
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "I3-01-MALE3",
+    "location": [
+      1.2926649015334999,
+      103.77559313344092
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "I3-01-FEMALE3",
+    "location": [
+      1.2926260124959659,
+      103.7756123721026
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "I3-02-00-MALE2",
+    "location": [
+      1.2925135472516793,
+      103.77571811056201
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "I3-02-00-FEMALE2",
+    "location": [
+      1.2924887058288226,
+      103.77578241257797
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "I3-02-00-MALE1",
+    "location": [
+      1.2924200269094903,
+      103.77599522298755
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "I3-02-00-FEMALE1",
+    "location": [
+      1.2923952144185584,
+      103.77605950523017
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "I3-03-MALE1",
+    "location": [
+      1.2924200070132081,
+      103.77599521130695
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "I3-03-FEMALE1",
+    "location": [
+      1.292395357298462,
+      103.7760590793181
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "I3-03-MALE2",
+    "location": [
+      1.2925135463472959,
+      103.77571810966349
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "I3-03-FEMALE2",
+    "location": [
+      1.2924888496130784,
+      103.77578198756441
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "I3-04-00-MALE2",
+    "location": [
+      1.2925135508693975,
+      103.77571812224298
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "I3-04-00-FEMALE2",
+    "location": [
+      1.2924888939281143,
+      103.77578203967884
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "I3-05-MALE2",
+    "location": [
+      1.292510989743299,
+      103.7757196057934
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "I3-05-FEMALE2",
+    "location": [
+      1.2924887076375444,
+      103.77578241167939
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "I3-05-MALE1",
+    "location": [
+      1.2924175516960634,
+      103.77599662926109
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "I3-05-MALE2",
+    "location": [
+      1.2923952135141954,
+      103.77605950523018
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "SFAH-01-MALE",
+    "location": [
+      1.2931458581849429,
+      103.77381590689085
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "SFAH-01-FEMALE",
+    "location": [
+      1.2931918193127008,
+      103.77379566076766
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "SFAH-01-HANDIC",
+    "location": [
+      1.2931629773481903,
+      103.77372008056975
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "SFAH-02-FEMALE2",
+    "location": [
+      1.2935827407710052,
+      103.77364332268652
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "SFAH-02-MALE2",
+    "location": [
+      1.2935908292178753,
+      103.773673597082
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "SFAH-02-MALE1",
+    "location": [
+      1.2931562433821617,
+      103.7738320678274
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "SFAH-02-FEMALE1",
+    "location": [
+      1.293181172961189,
+      103.77386494849732
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "SFAH-02-HANDIC",
+    "location": [
+      1.2931639298662658,
+      103.77380608720168
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "SFAH-03-FEMALE1",
+    "location": [
+      1.2931794211604244,
+      103.77386295467312
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "SFAH-03-HANDIC",
+    "location": [
+      1.293164655170382,
+      103.77380625251652
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "SFAH-03-MALE1",
+    "location": [
+      1.2931553407722056,
+      103.77382976488498
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "SFAH-04-FEMALE2",
+    "location": [
+      1.2935859935454534,
+      103.77367206607892
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "SFAH-04-MALE2",
+    "location": [
+      1.2935768967436907,
+      103.77364227332573
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "SFAH-04-HANDIC",
+    "location": [
+      1.2935577580993565,
+      103.77362175196647
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "SFAH-04-MALE3",
+    "location": [
+      1.2931908807103114,
+      103.77376277055362
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "SFAH-04-FEMALE3",
+    "location": [
+      1.2932110921185553,
+      103.77375299663964
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "SFAH-04-MALE1",
+    "location": [
+      1.2931831552700792,
+      103.77386249722827
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "SFAH-04-FEMALE2",
+    "location": [
+      1.2931593155063945,
+      103.77383200395938
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "SFAH-05-FEMALE2",
+    "location": [
+      1.2935892971513423,
+      103.77367049804552
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "SFAH-05-MALE2",
+    "location": [
+      1.2935708818840765,
+      103.77364513352629
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "THE TERRACE-01-MALE",
+    "location": [
+      1.294389681368901,
+      103.7744420263848
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "THE_TERRACE-01-FEMALE",
+    "location": [
+      1.2943709549072826,
+      103.77445106615487
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "COM1-02-MALE2",
+    "location": [
+      1.2947616870837362,
+      103.77374787381157
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "COM1-02-FEMALE2",
+    "location": [
+      1.2947935229328733,
+      103.7737272011952
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "COM1-02-HANDIC",
+    "location": [
+      1.2947834055853307,
+      103.77375598175368
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "COM1-02-FEMALE1",
+    "location": [
+      1.2951646148448699,
+      103.77386194250053
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "COM1-02-MALE1",
+    "location": [
+      1.2951387089384865,
+      103.77388374444864
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "COM1-03-FEMALE",
+    "location": [
+      1.2951580402467178,
+      103.77386747588046
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "COM1-03-MALE1",
+    "location": [
+      1.294760615361618,
+      103.77374574429045
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "COM1-03-FEMALE1",
+    "location": [
+      1.294791362346492,
+      103.77372466735528
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "COM1-03-HANDIC",
+    "location": [
+      1.2947812449989355,
+      103.77375344611666
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "COM1-03-MALE",
+    "location": [
+      1.2951714670773877,
+      103.77385617729004
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "COM2-02-MALE",
+    "location": [
+      1.2935313133562958,
+      103.77434226755533
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "COM2-02-FEMALE",
+    "location": [
+      1.2941074485126225,
+      103.77410616760918
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "COM2-03-FEMALE",
+    "location": [
+      1.2935313133562958,
+      103.77434226755533
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "COM2-03-MALE",
+    "location": [
+      1.2941074485126225,
+      103.77410616760918
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "COM2-04-FEMALE",
+    "location": [
+      1.2941074485126225,
+      103.77410616760918
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "COM2-04-MALE",
+    "location": [
+      1.2935313133562958,
+      103.77434226755533
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": -1,
+    "code": "COM2-B1-MALE",
+    "location": [
+      1.2935313133562958,
+      103.77434226755533
+    ]
+  },
+  {
+    "name": "",
+    "floor": 2,
+    "code": "VT-02-TOILET",
+    "location": [
+      1.2951545948093544,
+      103.77016079198391
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": -1,
+    "code": "AS4-B1-MALE",
+    "location": [
+      1.294386305834839,
+      103.77136847367932
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "AS4-B1-FEMALE",
+    "location": [
+      1.2943723498485744,
+      103.77137513491363
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "AS4-01-FEMALE",
+    "location": [
+      1.2946707734380916,
+      103.771729498498
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "AS4-01-MALE2",
+    "location": [
+      1.2943802394329853,
+      103.77137148124832
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "AS4-01-HANDICAPPED",
+    "location": [
+      1.2947381653560717,
+      103.7720837509005
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "AS4-01-MALE1",
+    "location": [
+      1.2947619120943215,
+      103.7720812793383
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS4-02-FEMALE",
+    "location": [
+      1.2946707734380916,
+      103.771729498498
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS4-02-FEMALE2",
+    "location": [
+      1.2943802394329853,
+      103.77137148124832
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "AS4-02-HANDICAPPED",
+    "location": [
+      1.2947173525470987,
+      103.77220499355475
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS4-02-FEMALE",
+    "location": [
+      1.2947579726949914,
+      103.77208175835608
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS4-03-MALE",
+    "location": [
+      1.2946707734380916,
+      103.771729498498
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS4-03-MALE",
+    "location": [
+      1.2947674693270674,
+      103.7720777416425
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "AS4-03-HANDICAPPED",
+    "location": [
+      1.2947431458189038,
+      103.77208903690733
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS4-04-FEMALE",
+    "location": [
+      1.294763936821228,
+      103.77207532374902
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "AS4-04-HANDICAPPED",
+    "location": [
+      1.29473900016214,
+      103.77208695059082
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS4-05-MALE",
+    "location": [
+      1.294763936821228,
+      103.77207532374902
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "AS4-05-HANDICAPPED",
+    "location": [
+      1.2947377919451013,
+      103.77208751400603
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "AS4-06-FEMALE",
+    "location": [
+      1.2947639377256126,
+      103.77207532464755
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "AS4-06-HANDICAPPED",
+    "location": [
+      1.29473900016214,
+      103.77208695059082
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "THE DECK-02-HANDITOILET",
+    "location": [
+      1.2946083941819329,
+      103.77259354305713
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "AS7-06-MALE",
+    "location": [
+      1.2943119419601337,
+      103.7710827614404
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "AS7-06-FEMALE",
+    "location": [
+      1.2943220511606948,
+      103.77105491356545
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS7-05-MALE",
+    "location": [
+      1.2943119419601337,
+      103.7710827614404
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "AS7-05-FEMALE",
+    "location": [
+      1.2943220511606948,
+      103.77105491356545
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS7-04-FEMALE",
+    "location": [
+      1.2943281108550933,
+      103.77107326974195
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS7-04-MALE",
+    "location": [
+      1.2943047509182288,
+      103.77106489769288
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS7-03-FEMALE",
+    "location": [
+      1.2943281108550933,
+      103.77107326974195
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS7-03-MALE",
+    "location": [
+      1.2943047509182288,
+      103.77106489769288
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS7-02-FEMALE",
+    "location": [
+      1.294328110855071,
+      103.7710732688434
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "AS7-02-MALE",
+    "location": [
+      1.294304750013849,
+      103.7710648976929
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "AS7-01-MALE",
+    "location": [
+      1.2943755549558487,
+      103.77108318220424
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "AS7-01-FEMALE",
+    "location": [
+      1.2943449555186433,
+      103.77107221623935
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "AS6-01-MALE",
+    "location": [
+      1.2958594887868404,
+      103.77322190126513
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "AS6-01-FEMALE",
+    "location": [
+      1.2958420697482402,
+      103.77318081130214
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "AS6-02-01",
+    "location": [
+      1.2958518208683703,
+      103.77322972056753
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS6-02-02",
+    "location": [
+      1.2958451267207953,
+      103.77319006532491
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS6-03-MALE",
+    "location": [
+      1.2958518208683703,
+      103.77322972056753
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS6-03-FEMALE",
+    "location": [
+      1.2958451267207953,
+      103.77319006532491
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS6-04-FEMALE",
+    "location": [
+      1.2958451267207953,
+      103.77319006532491
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS6-04-MALE",
+    "location": [
+      1.2958518208683703,
+      103.77322972056753
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS6-05-MALE",
+    "location": [
+      1.2958518208683703,
+      103.77322972056753
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "AS6-05-FEMALE",
+    "location": [
+      1.2958451267207953,
+      103.77319006532491
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS5-03-MALE",
+    "location": [
+      1.2943864604213884,
+      103.77188310041966
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS5-03-FEMALE",
+    "location": [
+      1.2944164723145057,
+      103.77186910939011
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS5-04-MALE",
+    "location": [
+      1.2943864604214321,
+      103.77188310221673
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS5-04-FEMALE",
+    "location": [
+      1.2944164723145057,
+      103.77186910939011
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS5-05-38",
+    "location": [
+      1.2943864604213884,
+      103.77188310041966
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "AS5-05-39",
+    "location": [
+      1.2944164741232311,
+      103.77186910939007
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "AS5-06-MALE",
+    "location": [
+      1.2943864604213884,
+      103.77188310041966
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "AS5-06-FEMALE",
+    "location": [
+      1.2944164741232311,
+      103.77186910939007
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS3-02-FEMALE",
+    "location": [
+      1.2948618873775073,
+      103.77121613938276
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "AS3-02-MALE",
+    "location": [
+      1.2948294349010325,
+      103.77120528128467
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS3-03-FEMALE",
+    "location": [
+      1.2948618873775073,
+      103.77121613938276
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS3-03-MALE",
+    "location": [
+      1.2948294349010325,
+      103.77120528128467
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS3-04-FEMALE",
+    "location": [
+      1.2948618873775073,
+      103.77121613938276
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS3-04-MALE",
+    "location": [
+      1.2948294349010325,
+      103.77120528128467
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "AS3-05-FEMALE",
+    "location": [
+      1.2948618873775073,
+      103.77121613938276
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS3-05-MALE",
+    "location": [
+      1.2948294349010325,
+      103.77120528128467
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "AS3-06-FEMALE",
+    "location": [
+      1.2948618873775073,
+      103.77121613938276
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "AS3-06-MALE",
+    "location": [
+      1.2948294349010325,
+      103.77120528128467
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "AS2-06-MALE",
+    "location": [
+      1.2950093336140258,
+      103.77134612167939
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS2-05-MALE",
+    "location": [
+      1.2950045278439457,
+      103.77134700955634
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS2-04-MALE",
+    "location": [
+      1.2950097178652598,
+      103.77134191199738
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS2-03-MALE",
+    "location": [
+      1.2950104025244769,
+      103.77134416462737
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "AS2-02-MALE",
+    "location": [
+      1.2950962944740527,
+      103.77130538413097
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS2-02-FEMALE",
+    "location": [
+      1.2950635598226363,
+      103.77129397343394
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "AS1-B1-FEMALE",
+    "location": [
+      1.2951109776900631,
+      103.77181988666466
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "AS1-01-FEMALE",
+    "location": [
+      1.2951109776900631,
+      103.77181988666466
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS1-02-FEMALE",
+    "location": [
+      1.2951109776900631,
+      103.77181988666466
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "AS1-02-MALE",
+    "location": [
+      1.2955382126074615,
+      103.77251282098446
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS1-03-MALE",
+    "location": [
+      1.2951109776900631,
+      103.77181988666466
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS1-03-FEMALE1",
+    "location": [
+      1.2955382126074615,
+      103.77251282098446
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS1-03-FEMALE2",
+    "location": [
+      1.2951780580272318,
+      103.77237859356667
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS1-04-FEMALE",
+    "location": [
+      1.2951109776900631,
+      103.77181988666466
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS1-04-MALE",
+    "location": [
+      1.2951780580272318,
+      103.77237859356667
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS1-05-43",
+    "location": [
+      1.2951109776900631,
+      103.77181988666466
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS1-05-MALE",
+    "location": [
+      1.2951780580272318,
+      103.77237859356667
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS1-05-MALE1",
+    "location": [
+      1.2955382126074615,
+      103.77251282098446
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "LT10-01-FEMALETOILET",
+    "location": [
+      1.2949051646344911,
+      103.77216919740465
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "LT10-01-MALETOILET",
+    "location": [
+      1.2948933620734773,
+      103.77214421820057
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "AS8-02-MALE",
+    "location": [
+      1.2959699669456448,
+      103.77243632220737
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "AS8-02-FEMALE",
+    "location": [
+      1.2959542679767866,
+      103.77246922004142
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "AS8-02-HANDIC",
+    "location": [
+      1.2959486359200183,
+      103.77244523177141
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "AS8-03-MALE",
+    "location": [
+      1.2959506837723278,
+      103.77219938854093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "AS8-03-FEMALE",
+    "location": [
+      1.2959885253861037,
+      103.77221165005106
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "AS8-03-HANDIC",
+    "location": [
+      1.2959344530172947,
+      103.7722313339331
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "AS8-04-MALE",
+    "location": [
+      1.2959506837723278,
+      103.77219938854093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "AS8-04-FEMALE",
+    "location": [
+      1.2959885253861037,
+      103.77221165005106
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "AS8-04-HANDIC",
+    "location": [
+      1.2959344530172947,
+      103.7722313339331
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "AS8-05-MALE",
+    "location": [
+      1.2959506837723278,
+      103.77219938854093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "AS8-05-FEMALE",
+    "location": [
+      1.2959885253861037,
+      103.77221165005106
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "AS8-05-HANDIC",
+    "location": [
+      1.2959344530172947,
+      103.7722313339331
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "AS8-06-MALE",
+    "location": [
+      1.2959506837723278,
+      103.77219938854093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "AS8-06-FEMALE",
+    "location": [
+      1.2959885253861037,
+      103.77221165005106
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "AS8-06-HANDIC",
+    "location": [
+      1.2959344530172947,
+      103.7722313339331
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "AS8-07-MALE",
+    "location": [
+      1.2959506837723278,
+      103.77219938854093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "AS8-07-FEMALE",
+    "location": [
+      1.2959885253861037,
+      103.77221165005106
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "CC-01-MALE",
+    "location": [
+      1.297422343350838,
+      103.7724312026414
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "CC-01-FEMALETOILET",
+    "location": [
+      1.297406745380037,
+      103.7724520447329
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "CC-02-FEMALE TOILET",
+    "location": [
+      1.2974157516527327,
+      103.77244001032331
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "CC-03-MALETOILET",
+    "location": [
+      1.2974157516527327,
+      103.77244001032331
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "CC-04-FEMALE2",
+    "location": [
+      1.2974157516527327,
+      103.77244001032331
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "CLB-06-FEMALE",
+    "location": [
+      1.2966555144072542,
+      103.77301694722321
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "CLB-06-MALETOILET",
+    "location": [
+      1.2966797954541296,
+      103.77334769236631
+    ]
+  },
+  {
+    "name": "Staff",
+    "floor": 6,
+    "code": "CLB-06-STAFFTOILET",
+    "location": [
+      1.2968957474528497,
+      103.77295907354362
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "LT4-LF-FEMALE",
+    "location": [
+      1.2976922896055052,
+      103.77359278675367
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "LT4-LF-MALE",
+    "location": [
+      1.2977324328978275,
+      103.77360830006775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "CLB-05-FEMALE TOILET",
+    "location": [
+      1.2966797954541296,
+      103.77334769236631
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "CLB-05-MALETOILET",
+    "location": [
+      1.2966555144072542,
+      103.77301694722321
+    ]
+  },
+  {
+    "name": "Staff",
+    "floor": 5,
+    "code": "CLB-05-STAFFTOILET",
+    "location": [
+      1.2968957474528497,
+      103.77295907354362
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "CLB-04-FEMALETOILET",
+    "location": [
+      1.2966505874349694,
+      103.77301713693248
+    ]
+  },
+  {
+    "name": "Staff",
+    "floor": 4,
+    "code": "CLB-04-STAFF TOILET",
+    "location": [
+      1.2968957474528497,
+      103.77295907354362
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "CLB-04-MALE TOILET",
+    "location": [
+      1.2966797954541296,
+      103.77334769236631
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "CLB-03-MALETOILET",
+    "location": [
+      1.2966555144072542,
+      103.77301694722321
+    ]
+  },
+  {
+    "name": "Staff",
+    "floor": 3,
+    "code": "CLB-03-STAFFTOILET",
+    "location": [
+      1.2968957474528497,
+      103.77295907354362
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "CLB-03-FEMALE TOILET",
+    "location": [
+      1.2966797954541296,
+      103.77334769236631
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "CLB-02-FEMALE2",
+    "location": [
+      1.2966797954541296,
+      103.77334769236631
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "CLB-02-FEMALE1",
+    "location": [
+      1.2966505874349694,
+      103.77301713693248
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "CLB-01-FTOILET",
+    "location": [
+      1.2966255926134254,
+      103.77297941218272
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "CLB-01-HANDICAP",
+    "location": [
+      1.2966021057497021,
+      103.77295764642575
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "CLB-01-MALE TOILET",
+    "location": [
+      1.2966555189288957,
+      103.77301694003476
+    ]
+  },
+  {
+    "name": "",
+    "floor": 2,
+    "code": "YIH-02-FTOILET2",
+    "location": [
+      1.2983354045530282,
+      103.77535888045915
+    ]
+  },
+  {
+    "name": "",
+    "floor": 2,
+    "code": "YIH-02-MTOILET2",
+    "location": [
+      1.2983235721834556,
+      103.77533414920477
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "YIH-02-MTOILET2",
+    "location": [
+      1.2984382031073787,
+      103.7747895795118
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "YIH-02-FTOILET2",
+    "location": [
+      1.2984100503576976,
+      103.7747943945581
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "YIH-03-TOILET",
+    "location": [
+      1.2986015567473272,
+      103.77463963121592
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "YIH-03-MTOILET",
+    "location": [
+      1.2983235721834556,
+      103.77533414920477
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "YIH-03-FTOILET",
+    "location": [
+      1.2983354045530282,
+      103.77535888045915
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "YIH-03-TOILET",
+    "location": [
+      1.298574911755072,
+      103.77465222222956
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "YIH-04-FTOILET",
+    "location": [
+      1.2986826886109477,
+      103.77496876963389
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "YIH-04-MTOILET",
+    "location": [
+      1.2986683772681626,
+      103.77493944957048
+    ]
+  },
+  {
+    "name": "Handicap",
+    "floor": 4,
+    "code": "YIH-04-HANDICAP",
+    "location": [
+      1.2986601369111777,
+      103.77498744099844
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "YIH-06-FTOILET",
+    "location": [
+      1.2984109173165435,
+      103.77450939076498
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "YIH-06-MTOILET",
+    "location": [
+      1.2983812382161044,
+      103.7745234141281
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E2A-04-MALE",
+    "location": [
+      1.2989311581787797,
+      103.77145514994974
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "E2A-04-HANDIC",
+    "location": [
+      1.2989086055319465,
+      103.77143426114506
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E2A-03-FEMALE",
+    "location": [
+      1.2989311581787797,
+      103.77145514994974
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "E2A-03-HANDIC",
+    "location": [
+      1.2989086055319465,
+      103.77143426114506
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E2A-02-MALE",
+    "location": [
+      1.2989311581787797,
+      103.77145514994974
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "E2A-02-HANDIC",
+    "location": [
+      1.2989086055319465,
+      103.77143426114506
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E2A-01-MTOILET",
+    "location": [
+      1.2989701041158603,
+      103.77139775180096
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "E2A-01-HANDIC",
+    "location": [
+      1.2989436600653288,
+      103.77141662276972
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "E2A-01-FTOILET",
+    "location": [
+      1.298975218545511,
+      103.77140787467454
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E5-01-MALE1",
+    "location": [
+      1.2977856975700257,
+      103.7726029020626
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E5-02-FEMALE1",
+    "location": [
+      1.2982318785267941,
+      103.77216233805093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E5-02-FEMALE2",
+    "location": [
+      1.2977856975700257,
+      103.7726029020626
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E5-03-MALE2",
+    "location": [
+      1.2982318785267941,
+      103.77216233805093
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E5-03-MALE1",
+    "location": [
+      1.2977856975700257,
+      103.7726029020626
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E5-04-FEMALE2",
+    "location": [
+      1.2982318785267941,
+      103.77216233805093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E5-04-FEMALE1",
+    "location": [
+      1.2977856975700257,
+      103.7726029020626
+    ]
+  },
+  {
+    "name": "",
+    "floor": 2,
+    "code": "E1-02-MALE",
+    "location": [
+      1.2983324722491378,
+      103.77114623613242
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E1-03-FEMALE",
+    "location": [
+      1.2983353437469516,
+      103.77115194181597
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E1-04-MALE",
+    "location": [
+      1.2983324722491378,
+      103.77114623613242
+    ]
+  },
+  {
+    "name": "",
+    "floor": 5,
+    "code": "E1-05-FEMALE",
+    "location": [
+      1.2983324722491378,
+      103.77114623613242
+    ]
+  },
+  {
+    "name": "",
+    "floor": 6,
+    "code": "E1-06-MALE",
+    "location": [
+      1.2983324722491378,
+      103.77114623613242
+    ]
+  },
+  {
+    "name": "",
+    "floor": 7,
+    "code": "E1-07-FEMALE",
+    "location": [
+      1.2983324722491378,
+      103.77114623613242
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "E1-08-MALE",
+    "location": [
+      1.2983324722491378,
+      103.77114623613242
+    ]
+  },
+  {
+    "name": "",
+    "floor": 1,
+    "code": "E1A-01-S2",
+    "location": [
+      1.2996219116036014,
+      103.77072536777251
+    ]
+  },
+  {
+    "name": "",
+    "floor": 1,
+    "code": "E1A-01-S1",
+    "location": [
+      1.2996383270407816,
+      103.77073825608839
+    ]
+  },
+  {
+    "name": "",
+    "floor": 1,
+    "code": "E1A-01-S3",
+    "location": [
+      1.2996441176215117,
+      103.77077197561961
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E1A-02-S2",
+    "location": [
+      1.2996219116036014,
+      103.77072536777251
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "E1A-02-S1",
+    "location": [
+      1.2996383270407816,
+      103.77073825608839
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E1A-02-S3",
+    "location": [
+      1.2996441176215117,
+      103.77077197561961
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E1A-03-S1",
+    "location": [
+      1.2996238805076663,
+      103.77072950012945
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "E1A-03-S2",
+    "location": [
+      1.2996421671724758,
+      103.77074631773374
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E1A-03-S3",
+    "location": [
+      1.29963096391712,
+      103.77078296154642
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E1A-04-S1",
+    "location": [
+      1.2996219116036014,
+      103.77072536777251
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "E1A-04-S2",
+    "location": [
+      1.29963889410684,
+      103.77073944574715
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E1A-04-S3",
+    "location": [
+      1.299644684687577,
+      103.77077316617692
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E1A-05-S1",
+    "location": [
+      1.2996219116036014,
+      103.77072536777251
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "E1A-05-S2",
+    "location": [
+      1.29963889410684,
+      103.77073944574715
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "E1A-05-S3",
+    "location": [
+      1.299644684687577,
+      103.77077316617692
+    ]
+  },
+  {
+    "name": "",
+    "floor": 6,
+    "code": "E1A-06-S1",
+    "location": [
+      1.2996219116036014,
+      103.77072536777251
+    ]
+  },
+  {
+    "name": "",
+    "floor": 6,
+    "code": "E1A-06-S2",
+    "location": [
+      1.2996388941068622,
+      103.77073944664569
+    ]
+  },
+  {
+    "name": "",
+    "floor": 6,
+    "code": "E1A-06-S3",
+    "location": [
+      1.2996446846875547,
+      103.77077316527836
+    ]
+  },
+  {
+    "name": "",
+    "floor": 7,
+    "code": "E1A-07-S1",
+    "location": [
+      1.2996219116036014,
+      103.77072536777251
+    ]
+  },
+  {
+    "name": "",
+    "floor": 7,
+    "code": "E1A-07-S2",
+    "location": [
+      1.29963889410684,
+      103.77073944574715
+    ]
+  },
+  {
+    "name": "",
+    "floor": 7,
+    "code": "E1A-07-S3",
+    "location": [
+      1.299644684687577,
+      103.77077316617692
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "E2-01-FEMALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E2-02-MALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E2-03-FEMALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "E2-B1-FEMALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E2-01-FEMALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E2-02-MALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E2-03-FEMALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "E2-B1-FEMALE",
+    "location": [
+      1.2996235072531666,
+      103.77117612879363
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E3-01-08",
+    "location": [
+      1.2993582137762079,
+      103.77198386906313
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E3-01-11",
+    "location": [
+      1.299807972301678,
+      103.77161827193389
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E3-02-01",
+    "location": [
+      1.299807972301678,
+      103.77161827193389
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E3-02-05",
+    "location": [
+      1.2993582137762079,
+      103.77198386906313
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E3-03-MALE2",
+    "location": [
+      1.2993582137762079,
+      103.77198386906313
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E3-03-FEMALE",
+    "location": [
+      1.299714387105887,
+      103.77140725195505
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E3-03-MALE1",
+    "location": [
+      1.299807972301678,
+      103.77161827193389
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E3-04-MALE",
+    "location": [
+      1.2997147696519649,
+      103.77140725194575
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E3-04-FEMALE",
+    "location": [
+      1.2993582843202216,
+      103.77198401642269
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E3-05-FEMALE1",
+    "location": [
+      1.299714387105887,
+      103.77140725195505
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "E3-05-MALE1",
+    "location": [
+      1.2990321582808058,
+      103.7717779674487
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "E3-05-MALE",
+    "location": [
+      1.2993582137762079,
+      103.77198386906313
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "E3-06-FEMALE",
+    "location": [
+      1.2993582137762079,
+      103.77198386906313
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "E3-06-MALE",
+    "location": [
+      1.299714387105887,
+      103.77140725195505
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E3A-01-MALE",
+    "location": [
+      1.3000606896847917,
+      103.7713256853296
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "E3A-01-HDTOILET",
+    "location": [
+      1.3000589837301173,
+      103.7713858069841
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "E3A-01-FEMALE",
+    "location": [
+      1.300065763926436,
+      103.77135636870366
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "E3A-02-HDTOILET",
+    "location": [
+      1.3000587594501847,
+      103.77138590403237
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E3A-02-FEMALE",
+    "location": [
+      1.3000659746347836,
+      103.77135602365742
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E3A-02-MALE",
+    "location": [
+      1.3000608804973655,
+      103.77132535016784
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "E3A-03-HDTOILET",
+    "location": [
+      1.3000587594501847,
+      103.77138590403237
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E3A-03-FEMALE",
+    "location": [
+      1.3000659746347836,
+      103.77135602365742
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E3A-03-MALE",
+    "location": [
+      1.3000608804973655,
+      103.77132535016784
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E3A-04-M",
+    "location": [
+      1.3000608804973655,
+      103.77132535016784
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E3A-04-F",
+    "location": [
+      1.300065977347933,
+      103.77135602545445
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "E3A-04-HDTOILET",
+    "location": [
+      1.3000587594501847,
+      103.77138590403237
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "E3A-05-MALE",
+    "location": [
+      1.3000608434243996,
+      103.77132559187721
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "E3A-05-HDTOILET",
+    "location": [
+      1.3000589927744273,
+      103.7713858339402
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E3A-05-FEMALE",
+    "location": [
+      1.3000660126245667,
+      103.77135628603149
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "E3A-06-MALE",
+    "location": [
+      1.3000607665539432,
+      103.77132561254561
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "E3A-06-FEMALE",
+    "location": [
+      1.300066012624589,
+      103.77135628693004
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "E3A-06-HDTOILET",
+    "location": [
+      1.3000587757295297,
+      103.77138593637957
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "E3A-07-MALE",
+    "location": [
+      1.3000606896847917,
+      103.7713256853296
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "E3A-07-FEMALE",
+    "location": [
+      1.300065763926436,
+      103.77135636870366
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "E3A-07-HDTOILET",
+    "location": [
+      1.3000589764950823,
+      103.77138580159301
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "E4-B1-FTOILET",
+    "location": [
+      1.2983710118426082,
+      103.77281724473907
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E4-01-MALE",
+    "location": [
+      1.2983710118426082,
+      103.77281724473907
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E4-02-FEMALE",
+    "location": [
+      1.2983710118426082,
+      103.77281724473907
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E4-03-MTOILET",
+    "location": [
+      1.2983710118426082,
+      103.77281724473907
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E4-04-MALE",
+    "location": [
+      1.2983710118426082,
+      103.77281724473907
+    ]
+  },
+  {
+    "name": "",
+    "floor": 4,
+    "code": "E4-04-TOILET",
+    "location": [
+      1.2986450558788114,
+      103.77162557925767
+    ]
+  },
+  {
+    "name": "Handicap",
+    "floor": 4,
+    "code": "E4-04-HANDIC",
+    "location": [
+      1.2990285098849161,
+      103.77177020231846
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E4-04-FEMALE",
+    "location": [
+      1.2990358075810573,
+      103.77178573347749
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E4-05-FEMALE2",
+    "location": [
+      1.2983710118426082,
+      103.77281724473907
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E4-05-FEMALE",
+    "location": [
+      1.2986450558788114,
+      103.77162557925767
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "E4-05-MALE",
+    "location": [
+      1.2990321582808058,
+      103.7717779674487
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "E4-06-FEMALE",
+    "location": [
+      1.2986450558788114,
+      103.77162557925767
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "E4-06-FEMALE",
+    "location": [
+      1.2990358075810573,
+      103.77178573347749
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "E4-06-HANDIC",
+    "location": [
+      1.2990285098849161,
+      103.77177020231846
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "E4-07-FEMALE",
+    "location": [
+      1.2986450558788114,
+      103.77162557925767
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "E4-07-MALE",
+    "location": [
+      1.2990358075810573,
+      103.77178573347749
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "E4-07-HANDIC",
+    "location": [
+      1.2990285098849161,
+      103.77177020231846
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "E4-08-FEMALE",
+    "location": [
+      1.2986450558788114,
+      103.77162557925767
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "E4-08-MALE",
+    "location": [
+      1.2990358075810573,
+      103.77178573347749
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 8,
+    "code": "E4-08-HANDICAP",
+    "location": [
+      1.2990285098849161,
+      103.77177020231846
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "E4A-01-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "E4A-01-S3",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E4A-01-S4",
+    "location": [
+      1.2987741346041415,
+      103.77231723221608
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "E4A-02-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E4A-02-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E4A-02-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E4A-03-S4",
+    "location": [
+      1.2987741346041415,
+      103.77231723221608
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "E4A-03-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E4A-03-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "E4A-04-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E4A-04-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E4A-04-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "EA4-05-S3",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E4A-05-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "E4A-05-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "E4A-06-S4",
+    "location": [
+      1.2987741346041415,
+      103.77231723221608
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "E4A-06-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "E4A-06-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "E4A-07-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "E4A-07-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "E4A-07-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "E4A-01-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "E4A-01-S3",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "E4A-01-S4",
+    "location": [
+      1.2987741346041415,
+      103.77231723221608
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "E4A-02-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "E4A-02-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "E4A-02-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E4A-03-S4",
+    "location": [
+      1.2987741346041415,
+      103.77231723221608
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "E4A-03-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "E4A-03-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "E4A-04-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "E4A-04-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "E4A-04-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "EA4-05-S3",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "E4A-05-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "E4A-06-S4",
+    "location": [
+      1.2987741346041415,
+      103.77231723221608
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "E4A-06-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "E4A-06-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "E4A-07-S2",
+    "location": [
+      1.2988035394573572,
+      103.77233174299775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "E4A-07-S1",
+    "location": [
+      1.2988053234650268,
+      103.77235650323561
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "E4A-07-S4",
+    "location": [
+      1.2987741201344734,
+      103.77231723850623
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "EA-01-MALE",
+    "location": [
+      1.3002935234127764,
+      103.7708769599616
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "EA-01-FEMALE",
+    "location": [
+      1.3002572068395983,
+      103.77087625459811
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "EA-01-MALE",
+    "location": [
+      1.3004214106198175,
+      103.77052089503346
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "EA-01-FEMALE",
+    "location": [
+      1.3003998736405833,
+      103.77050297049938
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "EA-01-HANDICAP",
+    "location": [
+      1.3003788608900746,
+      103.77050907573098
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "EA-02-FEMALE",
+    "location": [
+      1.3003917569393988,
+      103.77050169207111
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "EA-02-MALE",
+    "location": [
+      1.3004169801703231,
+      103.77052213243891
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "EA-02-MALE",
+    "location": [
+      1.3002914714535345,
+      103.77087869779724
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "EA-02-FEMALE",
+    "location": [
+      1.3002589007800303,
+      103.77087891245131
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "EA-02-HANDICAP",
+    "location": [
+      1.300249530282256,
+      103.77086366348178
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "EA-03-FEMALE",
+    "location": [
+      1.3003549408848782,
+      103.77049010984304
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "EA-03-MALE",
+    "location": [
+      1.3004070292566787,
+      103.77051439441867
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "EA-03-MALE",
+    "location": [
+      1.300291499492185,
+      103.77087883257825
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "EA-03-FEMALE",
+    "location": [
+      1.3002589424016757,
+      103.77087975169091
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "EA-03-HANDICAP",
+    "location": [
+      1.3002512612507164,
+      103.77086427624663
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "EA-04-MALE",
+    "location": [
+      1.3004169213866177,
+      103.77052213064329
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "EA-04-FEMALE",
+    "location": [
+      1.300391806675989,
+      103.77050155459254
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "EA-04-MALE",
+    "location": [
+      1.3002889175379615,
+      103.77087906356766
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "EA-04-FEMALE",
+    "location": [
+      1.300254822104493,
+      103.77087920457853
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "EA-04-HANDICAP",
+    "location": [
+      1.3002512612507164,
+      103.77086427624663
+    ]
+  },
+  {
+    "name": "Femaile",
+    "floor": 5,
+    "code": "EA-05-FEMALE",
+    "location": [
+      1.3002589803833673,
+      103.77087968699477
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "EA-05-MALE",
+    "location": [
+      1.3002915193866327,
+      103.77087876967964
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "EA-05-MALE",
+    "location": [
+      1.3004169376652306,
+      103.7705221333385
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "EA-05-FEMALE",
+    "location": [
+      1.300391806675989,
+      103.77050155459254
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "EA-05-HANDICAP",
+    "location": [
+      1.3002512612507164,
+      103.77086427624663
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "EA-06-FEMALE",
+    "location": [
+      1.300339281604909,
+      103.77048161089702
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "EA-06-MALE",
+    "location": [
+      1.3004074533942684,
+      103.77051402510635
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "EA-06-MALE",
+    "location": [
+      1.3002889175379615,
+      103.77087906356766
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "EA-06-FEMALE",
+    "location": [
+      1.300254822104493,
+      103.77087920457853
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "EA-06-HANDICAP",
+    "location": [
+      1.3002512612507164,
+      103.77086427624663
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "EA-07-MALE",
+    "location": [
+      1.3002889175379615,
+      103.77087906356766
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "EA-07-FEMALE",
+    "location": [
+      1.300254822104493,
+      103.77087920457853
+    ]
+  },
+  {
+    "name": "Handicap",
+    "floor": 7,
+    "code": "EA-07-HANDICAP",
+    "location": [
+      1.3002512612507164,
+      103.77086427624663
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "EA-07-MALE",
+    "location": [
+      1.3004169376652306,
+      103.7705221333385
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "EA-07-FEMALE",
+    "location": [
+      1.300391806675989,
+      103.77050155459254
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "EW1-02-HANDIC",
+    "location": [
+      1.2980921800052252,
+      103.77074788608591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "EW1-03-MALE",
+    "location": [
+      1.298284047043642,
+      103.77099558565266
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "EW1-04-MALE2",
+    "location": [
+      1.2982869701040767,
+      103.7710018367508
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "EW1-04-FEMALE1",
+    "location": [
+      1.2988283967944323,
+      103.7707141150709
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "EW1-04-MALE1",
+    "location": [
+      1.2988430102914224,
+      103.77074537146505
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "EW1-04-FEMALE2",
+    "location": [
+      1.2982663770224383,
+      103.77097334263203
+    ]
+  },
+  {
+    "name": "",
+    "floor": 1,
+    "code": "EW2-01-39",
+    "location": [
+      1.2991888976739432,
+      103.7726863586088
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "EW2-01-MALE",
+    "location": [
+      1.299245243569601,
+      103.77266475356603
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "EW2-01-FEMALE",
+    "location": [
+      1.2992316941498119,
+      103.77265507566929
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "WS2-01-HANDIC",
+    "location": [
+      1.2992672904171108,
+      103.7726378721904
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "WS2-01-HANDIC",
+    "location": [
+      1.299428619385547,
+      103.7725392180594
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "EW2-02-45",
+    "location": [
+      1.299237903703344,
+      103.77266286589968
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "EW2-02-44",
+    "location": [
+      1.2992731346240693,
+      103.77264634712029
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "EW2-03-07",
+    "location": [
+      1.2992728316659317,
+      103.77264650886548
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "EW2-03-09",
+    "location": [
+      1.2992321936123028,
+      103.7726655616686
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "EW2-03-08",
+    "location": [
+      1.2992605352821316,
+      103.77265716499511
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "EW2-04-09",
+    "location": [
+      1.299230198606833,
+      103.77266647912985
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "EW2-04-08",
+    "location": [
+      1.2992602902783539,
+      103.77266043120927
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "EW2-04-07",
+    "location": [
+      1.299272767456357,
+      103.7726465205481
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "EW2-05-07",
+    "location": [
+      1.299273159947607,
+      103.77264640282942
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "EW2-05-08",
+    "location": [
+      1.2992605018976613,
+      103.7726603512338
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "EW2-05-09",
+    "location": [
+      1.2992304265056593,
+      103.77266643868992
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "EW2-06-07",
+    "location": [
+      1.2992672335633537,
+      103.77256810921642
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "EW2-06-08",
+    "location": [
+      1.299244071086273,
+      103.77257229429036
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "EW2-06-09",
+    "location": [
+      1.2992297146620426,
+      103.77258712959863
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 105,
+    "code": "EW2-M-FEMALE",
+    "location": [
+      1.2992282587558508,
+      103.7726669113759
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 105,
+    "code": "EW2-M-MALE",
+    "location": [
+      1.299265721835113,
+      103.77265814698022
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 105,
+    "code": "EW2-M-HANDIC",
+    "location": [
+      1.2992696436067852,
+      103.77263926937054
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "TECHNO EDGE-01-HDTOILET",
+    "location": [
+      1.2982035184302563,
+      103.77145501039881
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "TL-02-FEMALE",
+    "location": [
+      1.2997069199957094,
+      103.77200572762607
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "TL-02-MALE",
+    "location": [
+      1.2996785605257923,
+      103.7720257703426
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "TL-02-HANDIC",
+    "location": [
+      1.2997095271284926,
+      103.7720366294034
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "TL-03-FEMALE",
+    "location": [
+      1.2997068214071565,
+      103.77200520197997
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "TL-03-MALE",
+    "location": [
+      1.2996754812007298,
+      103.77202721617476
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "TL-03-HANDIC",
+    "location": [
+      1.2997096419634957,
+      103.77203584047867
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "TL-04-FEMALE",
+    "location": [
+      1.2997062733572458,
+      103.77200499083526
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "TL-04-MALE",
+    "location": [
+      1.2996754821050924,
+      103.77202721617473
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "TL-04-HANDIC",
+    "location": [
+      1.2997115339142806,
+      103.77203668865896
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "TL-05-FEMALE ",
+    "location": [
+      1.2997065835332873,
+      103.77200413541352
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "TL-05-MALE",
+    "location": [
+      1.2996754830094772,
+      103.77202721707326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "TL-05-HANDIC",
+    "location": [
+      1.2997098960534843,
+      103.77203435158448
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "TLAB-06-FEMALE",
+    "location": [
+      1.2997060861223508,
+      103.77200370232713
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "TLAB-06-MALE",
+    "location": [
+      1.2996754830094772,
+      103.77202721707326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "TLAB-06-HANDIC",
+    "location": [
+      1.2997111151421799,
+      103.772034582481
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "TL-07-FEMALE",
+    "location": [
+      1.29970653199186,
+      103.77200443552859
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "TL-07-MALE",
+    "location": [
+      1.299675483913906,
+      103.77202721976887
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "TL-07-HANDIC",
+    "location": [
+      1.2997102252592152,
+      103.77203505244117
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "TL-08-FTOILET",
+    "location": [
+      1.2997065419615823,
+      103.77200532418874
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "TL-08-MTOILET",
+    "location": [
+      1.2996754839139277,
+      103.77202722066741
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 8,
+    "code": "TL-08-HANDIC",
+    "location": [
+      1.2997107878160987,
+      103.7720367848212
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 9,
+    "code": "TL-09-FTOILET",
+    "location": [
+      1.2997062625016702,
+      103.77200485964805
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 9,
+    "code": "TL-09-MTOILET",
+    "location": [
+      1.2996754839139277,
+      103.77202722066741
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 9,
+    "code": "TL-09-HANDIC",
+    "location": [
+      1.2997114633682065,
+      103.7720364568362
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 10,
+    "code": "TL-10-FTOILET",
+    "location": [
+      1.2997062118584137,
+      103.77200490637357
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 10,
+    "code": "TL-10-MTOILET",
+    "location": [
+      1.2996754839139277,
+      103.77202722066741
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 10,
+    "code": "TL-10-HANDIC",
+    "location": [
+      1.2997116948901266,
+      103.77203664732203
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 11,
+    "code": "TL-11-FTOILET",
+    "location": [
+      1.2997066134163695,
+      103.77200573392327
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 11,
+    "code": "TL-11-MTOILET",
+    "location": [
+      1.2996754839139277,
+      103.77202722066741
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 11,
+    "code": "TL-11-HANDIC",
+    "location": [
+      1.299710813154436,
+      103.7720374452507
+    ]
+  },
+  {
+    "name": "Unisex",
+    "floor": 2,
+    "code": "SDE1-02-UNISEX",
+    "location": [
+      1.2971996997445263,
+      103.77041233347936
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "SDE-05-FEMALE",
+    "location": [
+      1.2972068206818137,
+      103.7708100771716
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "SDE1-05-MALE",
+    "location": [
+      1.2973050680658123,
+      103.770844912191
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "SDE2-01-MALE",
+    "location": [
+      1.297194893896592,
+      103.77124690438139
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "SDE2-02-MALE",
+    "location": [
+      1.2974654018090837,
+      103.77102324399917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "SDE2-03-FEMALE",
+    "location": [
+      1.2974654018090837,
+      103.77102324399917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "SDE2-03-FEMALE2",
+    "location": [
+      1.2972068179687253,
+      103.77081007717167
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "SDE2-03-MALE",
+    "location": [
+      1.2973039068518504,
+      103.77084450068655
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "SDE3-04-MALE1",
+    "location": [
+      1.2981089490403928,
+      103.7706515869369
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "SDE3-04-FEMALE",
+    "location": [
+      1.2986041523107292,
+      103.77041944039658
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "SDE3-04-MALE2",
+    "location": [
+      1.297721935693219,
+      103.77066361897974
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "SDE3-03-MALE",
+    "location": [
+      1.2981088133873324,
+      103.77065164983831
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "SDE3-03-FEMALE",
+    "location": [
+      1.2986041523107292,
+      103.77041944039658
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "SDE3-03-FEMALE1",
+    "location": [
+      1.297721935693219,
+      103.77066361897974
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "SDE3-02-FEMALE",
+    "location": [
+      1.2986041523107292,
+      103.77041944039658
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "SDE3-02-MALE2",
+    "location": [
+      1.2981089490403928,
+      103.7706515869369
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "SDE3-02-MALE1",
+    "location": [
+      1.297721935693219,
+      103.77066361897974
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "SDE3-04-MALE2",
+    "location": [
+      1.2977278747059222,
+      103.77066572501992
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "CELC-03-MTOILET",
+    "location": [
+      1.2968034524323413,
+      103.77120856409034
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "CELC-03-FTOILET",
+    "location": [
+      1.2967913320351776,
+      103.77124085983093
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "CELC-03-HDTOILET",
+    "location": [
+      1.2967721238006615,
+      103.77125962098545
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "CELC-02-FTOILET",
+    "location": [
+      1.2967913320351776,
+      103.77124085983093
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "CELC-02-MTOILET",
+    "location": [
+      1.296803455145452,
+      103.77120856498881
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "CELC-02-HDTOILET",
+    "location": [
+      1.296772122896282,
+      103.77125962098548
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UT22-01-R2",
+    "location": [
+      1.3038179238067231,
+      103.77341919009845
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UT22-01-R1",
+    "location": [
+      1.303866813723739,
+      103.773380777903
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT22-01-HCP",
+    "location": [
+      1.3038296798883002,
+      103.77346742556023
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT22-01-HCP",
+    "location": [
+      1.3038524208265196,
+      103.77345882054766
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT22-02-R2",
+    "location": [
+      1.3038276316446888,
+      103.77339779099894
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT22-02-R1",
+    "location": [
+      1.3038420661915586,
+      103.77343507761594
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UT22-02-HCP",
+    "location": [
+      1.3038649424779143,
+      103.77337593208931
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": -1,
+    "code": "UT23-LG-MTOILET",
+    "location": [
+      1.305618736853357,
+      103.77317256387106
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "UT23-LG-FTOILET",
+    "location": [
+      1.3056311602226123,
+      103.77321501181146
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": -1,
+    "code": "UT23-LG-HANDIC",
+    "location": [
+      1.3055913205700758,
+      103.77322774156748
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UT23-01-FTOILET",
+    "location": [
+      1.305618736853357,
+      103.77317256387106
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UT23-01-MTOILET",
+    "location": [
+      1.3056311602226123,
+      103.77321501181146
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT23-01-HANDIC",
+    "location": [
+      1.3055913205700758,
+      103.77322774156748
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UT23-01-FTOILET1",
+    "location": [
+      1.305727476736154,
+      103.77272476432765
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UT23-01-MTOILET1",
+    "location": [
+      1.3057738289306238,
+      103.77272101627838
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT23-01-HANDIC1",
+    "location": [
+      1.305752504030453,
+      103.77272138339615
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT23-02-FTOILET2",
+    "location": [
+      1.3057831007641656,
+      103.77269575162276
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT23-02-MTOILET2",
+    "location": [
+      1.3057958440505895,
+      103.77272847548461
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UT23-02-HANDIC2",
+    "location": [
+      1.3058131339203398,
+      103.77270084925632
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT23-02-MTOILET",
+    "location": [
+      1.3056272704726102,
+      103.7731741460086
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UT23-02-HANDIC",
+    "location": [
+      1.3056039728100066,
+      103.77316023975821
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT23-02-FTOILET",
+    "location": [
+      1.3056283251679979,
+      103.77322030431775
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT23-02-FTOILET1",
+    "location": [
+      1.3060398373718212,
+      103.7730051645019
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT23-02-MTOILET1",
+    "location": [
+      1.3060072908792941,
+      103.77303302022382
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UT23-02-HANDIC1",
+    "location": [
+      1.30598198948283,
+      103.77303311607277
+    ]
+  },
+  {
+    "name": "",
+    "floor": 3,
+    "code": "UT23-RF-TOILET",
+    "location": [
+      1.3056099247954585,
+      103.77317536574853
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "UT23-RF-FTOILET",
+    "location": [
+      1.3057943590560153,
+      103.77265279543614
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "UT23-RF-MTOILET",
+    "location": [
+      1.3058005269091852,
+      103.77269370251904
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "UT23-RF-HANDIC",
+    "location": [
+      1.3058100944475926,
+      103.77266753391812
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UT25-01-R5",
+    "location": [
+      1.3048858729176542,
+      103.77195748170512
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UT25-01-R8",
+    "location": [
+      1.304509433600926,
+      103.77249573251912
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UT25-01-R15",
+    "location": [
+      1.3042974563189262,
+      103.77302981719652
+    ]
+  },
+  {
+    "name": "",
+    "floor": 1,
+    "code": "UT25-01-R2",
+    "location": [
+      1.3053271489963805,
+      103.77212900800531
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT25-01-R16",
+    "location": [
+      1.3042987216625264,
+      103.77296056712207
+    ]
+  },
+  {
+    "name": "",
+    "floor": 1,
+    "code": "UT25-01-R1",
+    "location": [
+      1.3053266063935707,
+      103.77201897382535
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT25-01-R3",
+    "location": [
+      1.3053045992721974,
+      103.77207960467364
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT25-01-R6",
+    "location": [
+      1.3049317745287705,
+      103.77205581929044
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UT25-01-R9",
+    "location": [
+      1.3044587992993724,
+      103.7725018519355
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UT25-01-R7",
+    "location": [
+      1.30446403288326,
+      103.77246583448856
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UT25-01-R14",
+    "location": [
+      1.3043189804813136,
+      103.77304196143248
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UT25-01-R4",
+    "location": [
+      1.3049186565523143,
+      103.77193819541263
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT25-02-R5",
+    "location": [
+      1.3044423750229863,
+      103.77253422335092
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT25-02-R10",
+    "location": [
+      1.3042506572184522,
+      103.77314002138552
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UT25-02-R6",
+    "location": [
+      1.3044922428353756,
+      103.77258224674719
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT25-02-R4",
+    "location": [
+      1.30452488847955,
+      103.77257826001369
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UT25-02-R11",
+    "location": [
+      1.3042758561050718,
+      103.77316433094963
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT25-02-R9",
+    "location": [
+      1.3042677345075404,
+      103.77310987296352
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UT25-02-R7",
+    "location": [
+      1.3041358754853343,
+      103.77277283060366
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UT25-02-R8",
+    "location": [
+      1.3042837763141604,
+      103.7728555382301
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "UT25-03-R05",
+    "location": [
+      1.3044602842335498,
+      103.772649422819
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "UT25-03-R06",
+    "location": [
+      1.3045027959507973,
+      103.77266040293247
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "UT25-03-R04",
+    "location": [
+      1.3043929662046523,
+      103.77261766711818
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 105,
+    "code": "RC2-M-R1",
+    "location": [
+      1.3064245341598437,
+      103.77211876049228
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 105,
+    "code": "RC2-M-09R2",
+    "location": [
+      1.3065442791582418,
+      103.77182189569746
+    ]
+  },
+  {
+    "name": "",
+    "floor": 105,
+    "code": "RC2-M-09R1",
+    "location": [
+      1.3065415113322978,
+      103.77183947223895
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 0,
+    "code": "RC2-G-04R2",
+    "location": [
+      1.3065442818713298,
+      103.77182189569739
+    ]
+  },
+  {
+    "name": "",
+    "floor": 0,
+    "code": "RC2-G-04R1",
+    "location": [
+      1.3065415113322978,
+      103.77183947223895
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 0,
+    "code": "RC2-G-R1",
+    "location": [
+      1.3064259016734716,
+      103.77212344727916
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "RC2-02-R1",
+    "location": [
+      1.3064688671702036,
+      103.77249576629163
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "RC2-01-09R2",
+    "location": [
+      1.3065442818713298,
+      103.77182189569739
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "RC2-01-09R1",
+    "location": [
+      1.3065415113322978,
+      103.77183947223895
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "RC2-01-R1",
+    "location": [
+      1.3064368082782927,
+      103.77208543129811
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "RC2-01-R2",
+    "location": [
+      1.3063852240554876,
+      103.77207764124827
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "WC-02-R2",
+    "location": [
+      1.3073480426142672,
+      103.77207107110826
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "WC-02-R1",
+    "location": [
+      1.3073179136070527,
+      103.7720664730745
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "RC1-01-R5",
+    "location": [
+      1.3056716263929868,
+      103.77174594121391
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "RC1-01-R4",
+    "location": [
+      1.3056465785000952,
+      103.7717941416544
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "RC1-01-R3",
+    "location": [
+      1.3056467493566628,
+      103.77175466760428
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "RC1-01-R2",
+    "location": [
+      1.3059371529487414,
+      103.7723270194465
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "RC1-01-R1",
+    "location": [
+      1.305929961648521,
+      103.77237242677391
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 0,
+    "code": "RC1-G-R3",
+    "location": [
+      1.3057556622245334,
+      103.77176614478464
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 0,
+    "code": "RC1-G-R2",
+    "location": [
+      1.3057276278232797,
+      103.77180227152957
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 0,
+    "code": "RC1-G-R1",
+    "location": [
+      1.3057276488244327,
+      103.77177371212642
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "RC1-02-R1",
+    "location": [
+      1.3059371529487414,
+      103.7723270194465
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "RC1-02-R2",
+    "location": [
+      1.305929961648521,
+      103.77237242677391
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "EC-03-R2",
+    "location": [
+      1.307066879756677,
+      103.77260400705048
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "EC-03-R1",
+    "location": [
+      1.3071136608863776,
+      103.7726112500128
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "EC-02-R2",
+    "location": [
+      1.3070668788522926,
+      103.77260400615194
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "EC-02-R1",
+    "location": [
+      1.3071136608863776,
+      103.7726112500128
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "EC-01-R2",
+    "location": [
+      1.3070668788522926,
+      103.77260400615194
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "EC-01-R1",
+    "location": [
+      1.3071136608863776,
+      103.7726112500128
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "RC3-01-R4",
+    "location": [
+      1.307766523838595,
+      103.77197058720705
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "RC3-01-R5",
+    "location": [
+      1.3078062373803063,
+      103.77197853479166
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "RC3-01-R2",
+    "location": [
+      1.3082044954792205,
+      103.77251627699025
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "RC3-01-09",
+    "location": [
+      1.3082346547897366,
+      103.77239155069329
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "RC3-01-08",
+    "location": [
+      1.3082117896624597,
+      103.77238801276523
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "RC3-01-R1",
+    "location": [
+      1.3081958934258864,
+      103.77256400264456
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "RC3-01-R3",
+    "location": [
+      1.3081916637960613,
+      103.77249318013804
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "RC3-01-R6",
+    "location": [
+      1.3077819445074295,
+      103.77198499593632
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 0,
+    "code": "RC3-BL-R2",
+    "location": [
+      1.307891006263037,
+      103.7724628632047
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "RC3-02-R4",
+    "location": [
+      1.307797796012479,
+      103.77197722761038
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "RC3-02-R2",
+    "location": [
+      1.3082044954792205,
+      103.77251627699025
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "RC3-02-R1",
+    "location": [
+      1.3081958934258864,
+      103.77256400264456
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "RC3-02-R3",
+    "location": [
+      1.3081916637960613,
+      103.77249318013804
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UCC-01-MALE1",
+    "location": [
+      1.3017300637722176,
+      103.77165361084253
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UCC-01-HANDICAP1",
+    "location": [
+      1.301747266685433,
+      103.77162078657176
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UCC-01-FEMALE1",
+    "location": [
+      1.3017679915299598,
+      103.77163837418998
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UCC-01-FEMALE4 ",
+    "location": [
+      1.3016658165935915,
+      103.77234599530435
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UCC-01-MALE4",
+    "location": [
+      1.301596999301178,
+      103.77232145948894
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UCC-01-FEMALE5",
+    "location": [
+      1.3013893724956926,
+      103.77276307418482
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UCC-01-MALE5",
+    "location": [
+      1.3013508652382915,
+      103.77274939745163
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UCC-02-MALE1",
+    "location": [
+      1.301729859391572,
+      103.77165384177361
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UCC-02-HANDICAP1",
+    "location": [
+      1.301747266685433,
+      103.77162078657176
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UCC-02-FEMALE1",
+    "location": [
+      1.3017679915299598,
+      103.77163837418998
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UCC-02-FEMALE4",
+    "location": [
+      1.3013687837629186,
+      103.77276408913326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UCC-02-HANDICAP4",
+    "location": [
+      1.3013386157165163,
+      103.77275322284989
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "UCC-02-FEMALE3",
+    "location": [
+      1.301579134340605,
+      103.7723153525075
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "UCC-02-MALE3 ",
+    "location": [
+      1.3016290530227401,
+      103.77233536639929
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UCC-02-HANDICAP3",
+    "location": [
+      1.3016205080489578,
+      103.77231318062817
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "UCC-03-FEMALE",
+    "location": [
+      1.3015713431801064,
+      103.77231279543554
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "UCC-03-MALE",
+    "location": [
+      1.3016328495922376,
+      103.77233734939706
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "UCC-03-HANDIC",
+    "location": [
+      1.30161935047058,
+      103.77231350503077
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 0,
+    "code": "UCC-LG-MALE",
+    "location": [
+      1.3013423550468033,
+      103.77274428493372
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 0,
+    "code": "UCC-LG-FEMALE",
+    "location": [
+      1.3013576988733906,
+      103.77276009626375
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 0,
+    "code": "UCC-LG-HANDICAP",
+    "location": [
+      1.301375685931213,
+      103.77276657524261
+    ]
+  },
+  {
+    "name": "",
+    "floor": 2,
+    "code": "UHC-02-TOILET2",
+    "location": [
+      1.299242261709655,
+      103.77620407008952
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "UHC-02-HANDIC1",
+    "location": [
+      1.2991458066143033,
+      103.77639808413647
+    ]
+  },
+  {
+    "name": "",
+    "floor": 2,
+    "code": "UHC-02-TOILET1",
+    "location": [
+      1.2991602706625953,
+      103.77614369245208
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UHC-01-FEMALE1",
+    "location": [
+      1.2992900119128923,
+      103.77635291827389
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "UHC-01-FEMALE2",
+    "location": [
+      1.2988888285294686,
+      103.77658732508891
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UHC-01-MALE1",
+    "location": [
+      1.299274626145862,
+      103.77640088381244
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UHC-01-HANDIC1",
+    "location": [
+      1.2992645783443495,
+      103.77634720410192
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "UHC-01-MALE2",
+    "location": [
+      1.2988636435062313,
+      103.77657473974251
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "UHC-01-HANDIC2",
+    "location": [
+      1.298884979062554,
+      103.77656554805813
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "YSTCM-01-FEMALE1",
+    "location": [
+      1.3022170388043859,
+      103.77288604911145
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "YSTCM-01-FEMALE2",
+    "location": [
+      1.302350305828776,
+      103.77288207346766
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "YSTCM-01-MALE2",
+    "location": [
+      1.3023436135433084,
+      103.77291997876229
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "YSTCM-01-MALE1",
+    "location": [
+      1.3021294168018887,
+      103.77288787075284
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "YSTCM-01-HANDIC",
+    "location": [
+      1.3021629733757398,
+      103.77289355684658
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "YSTCM-02-FEMALE2",
+    "location": [
+      1.302350305828776,
+      103.77288207346766
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "YSTCM-02-MALE2",
+    "location": [
+      1.3023436334394745,
+      103.77291998505164
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "YSTCM-02-HANDIC",
+    "location": [
+      1.3023559597234564,
+      103.77294914614876
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "YSTCM-03-FEMALE1",
+    "location": [
+      1.302350305828776,
+      103.77288207346766
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "YSTCM-03-MALE1",
+    "location": [
+      1.3023436144476928,
+      103.77291997966081
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "YSTCM-03-HANDIC",
+    "location": [
+      1.3023559597234564,
+      103.77294914614876
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": -1,
+    "code": "YSTCM-LG-MALE",
+    "location": [
+      1.301562555265392,
+      103.77297648169412
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "YSTCM-LG-FEMALE",
+    "location": [
+      1.3015967721830108,
+      103.77298872445584
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "S12-01-MTOILET",
+    "location": [
+      1.2971030896152844,
+      103.77846104387115
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S12-01-FTOILET",
+    "location": [
+      1.2970921572066678,
+      103.77844034795254
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "S12-02-MTOILET",
+    "location": [
+      1.2970981842285108,
+      103.77845580906195
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S12-03-FTOILET",
+    "location": [
+      1.2970981842285108,
+      103.77845580906195
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S12-04-MTOILET",
+    "location": [
+      1.2970981842285108,
+      103.77845580906195
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 105,
+    "code": "S13-M-MALE",
+    "location": [
+      1.2966262294276096,
+      103.77947992060666
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "S13-05-MALE",
+    "location": [
+      1.2966278102383826,
+      103.77947906875409
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S13-04-FEMALE",
+    "location": [
+      1.2966421726228134,
+      103.77948714995019
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S13-03-MALE",
+    "location": [
+      1.2966268787972275,
+      103.77948160086915
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "S13-02-FEMALE",
+    "location": [
+      1.2966421726228134,
+      103.77948714995019
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S13-01-FEMALE",
+    "location": [
+      1.2966421726228134,
+      103.77948714995019
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "S15-06-FEMALE",
+    "location": [
+      1.297002907276253,
+      103.78003736907031
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "S15-06-HANDIC",
+    "location": [
+      1.2970030634229277,
+      103.78006550066897
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "S15-05-MALE",
+    "location": [
+      1.29700587283731,
+      103.78004445132865
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "S15-05-HANDIC",
+    "location": [
+      1.2969881479796137,
+      103.7800341067674
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S15-04-FEMALE",
+    "location": [
+      1.2970059741266176,
+      103.78004447468867
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "S15-04-HANDIC",
+    "location": [
+      1.2969882628390257,
+      103.78003434847321
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S15-03-MALE",
+    "location": [
+      1.297006424508417,
+      103.78004486734278
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "S15-03-HANDIC1",
+    "location": [
+      1.296989498204789,
+      103.78003453534443
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "S15-02-FEMALE",
+    "location": [
+      1.2970029081805563,
+      103.78003736547612
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "S15-02-HANDIC1",
+    "location": [
+      1.2970030589010182,
+      103.78006549617633
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "S15-01-MALE",
+    "location": [
+      1.297002907276253,
+      103.78003736907031
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "S15-01-HANDIC1",
+    "location": [
+      1.2970030634229277,
+      103.78006550066897
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S16-01-FTOILET",
+    "location": [
+      1.296554708578355,
+      103.78028431434706
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "S16-02-MTOILET",
+    "location": [
+      1.296554708578355,
+      103.78028431434706
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S16-03-FTOILET",
+    "location": [
+      1.296554708578355,
+      103.78028431434706
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S16-04-MTOILET",
+    "location": [
+      1.296554708578355,
+      103.78028431434706
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S16-05-FEMALE",
+    "location": [
+      1.2965526863294157,
+      103.78028004361232
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "S16-06-MALE",
+    "location": [
+      1.296554708578355,
+      103.78028431434706
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "S16-07-FTOILET",
+    "location": [
+      1.2965547085783742,
+      103.7802843152456
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "S16-08-MALE",
+    "location": [
+      1.2965547085783742,
+      103.7802843152456
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 9,
+    "code": "S16-09-FTOILET",
+    "location": [
+      1.2965547085783742,
+      103.7802843152456
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "S17-01-MALE",
+    "location": [
+      1.2978395397216278,
+      103.78069967183941
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "S17-01-HANDIC",
+    "location": [
+      1.2978268483294153,
+      103.78072155973179
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S17-01-FEMALE",
+    "location": [
+      1.2975363897588474,
+      103.7803661961688
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S17-03-FEMALE",
+    "location": [
+      1.2975368003607362,
+      103.78036716568897
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "S17-03-HANDIC",
+    "location": [
+      1.297826825720535,
+      103.78072157051477
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S17-03-MALE",
+    "location": [
+      1.2978395189213603,
+      103.78069967723111
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S17-04-MALE1",
+    "location": [
+      1.2975368003607362,
+      103.78036716568897
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "S17-04-HANDIC",
+    "location": [
+      1.2978267940663932,
+      103.78072150492174
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S17-04-FEMALE",
+    "location": [
+      1.2978395532866553,
+      103.78069965117263
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S17-05-FEMALE",
+    "location": [
+      1.2975368003607173,
+      103.78036716479042
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "S17-05-MALE",
+    "location": [
+      1.2978395523822923,
+      103.78069965117265
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "S17-05-HANDIC",
+    "location": [
+      1.2978267940662427,
+      103.78072149773338
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "S17-06-MALE1",
+    "location": [
+      1.2975368003607173,
+      103.78036716479042
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "S17-06-FEMALE",
+    "location": [
+      1.2978395532866553,
+      103.78069965117263
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "S17-06-HANDIC",
+    "location": [
+      1.2978267940662427,
+      103.78072149773338
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "S17-07-FEMALE",
+    "location": [
+      1.2975368003607362,
+      103.78036716568897
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "S17-07-MALE",
+    "location": [
+      1.2978395722781972,
+      103.78069964578098
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "S17-07-HANDIC",
+    "location": [
+      1.2978268166752907,
+      103.78072149413875
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "S17-08-FEMALE",
+    "location": [
+      1.2978395731825598,
+      103.78069964578097
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "S17-08-MALE",
+    "location": [
+      1.2975368003607362,
+      103.78036716568897
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 8,
+    "code": "S17-08-HANDIC",
+    "location": [
+      1.2978268166752907,
+      103.78072149413875
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S1A-01-FEMALE",
+    "location": [
+      1.295886087556577,
+      103.7784298699591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "S1A-01-MALE",
+    "location": [
+      1.2958474658927939,
+      103.77835263292155
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "S1A-01-HANDIC",
+    "location": [
+      1.2958606044380114,
+      103.77839125921064
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "S1A-02-FEMALE",
+    "location": [
+      1.2958860893653612,
+      103.77842987265468
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "S1A-02-MALE",
+    "location": [
+      1.2958474631797838,
+      103.77835263651578
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "S1A-02-HANDI",
+    "location": [
+      1.2958606062468525,
+      103.77839126370331
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S1A-03-FEMALE",
+    "location": [
+      1.295886087556577,
+      103.7784298699591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S1A-03-MALE",
+    "location": [
+      1.2958474658927939,
+      103.77835263292155
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "S1A-03-HANDIC",
+    "location": [
+      1.2958606044380114,
+      103.77839125921064
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S1A-04-FTOILET",
+    "location": [
+      1.295886087556577,
+      103.7784298699591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S1A-04-MTOILET",
+    "location": [
+      1.2958474658927939,
+      103.77835263292155
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "S1A-04-HTOILET",
+    "location": [
+      1.2958606044380114,
+      103.77839125921064
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S1A-05-FEMALE",
+    "location": [
+      1.295886087556577,
+      103.7784298699591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "S1A-05-MALE",
+    "location": [
+      1.2958474658927939,
+      103.77835263292155
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "S1A-05-HANDIC",
+    "location": [
+      1.2958606044380114,
+      103.77839125921064
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "S1A-06-FEMALE",
+    "location": [
+      1.295886087556577,
+      103.7784298699591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "S1A-06-MALE",
+    "location": [
+      1.2958474658927939,
+      103.77835263292155
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "S1A-06-HANDIC",
+    "location": [
+      1.2958606044380114,
+      103.77839125921064
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 7,
+    "code": "S1A-07-FEMALE",
+    "location": [
+      1.295886087556577,
+      103.7784298699591
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 7,
+    "code": "S1A-07-MALE",
+    "location": [
+      1.2958474658927939,
+      103.77835263292155
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 7,
+    "code": "S1A-07-HANDIC",
+    "location": [
+      1.2958606044380114,
+      103.77839125921064
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "S2-02-HANDIC",
+    "location": [
+      1.2956075121629824,
+      103.7778749672215
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S2-03-FEMALE",
+    "location": [
+      1.2956132858715537,
+      103.7778861449714
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "S2-03-HANDIC",
+    "location": [
+      1.295596717442504,
+      103.77790573177273
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S2-04-MALE",
+    "location": [
+      1.2956139062272958,
+      103.77788440897275
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "S2-04-HANDIC",
+    "location": [
+      1.295593732059689,
+      103.77790228412798
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S2-05-FEMALE",
+    "location": [
+      1.2956139062272958,
+      103.77788440897275
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "S2-05-HANDIC",
+    "location": [
+      1.295593732059689,
+      103.77790228412798
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S4A-01-FEMALE",
+    "location": [
+      1.2957160739316234,
+      103.77937573938402
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "S4A-01-HANDIC",
+    "location": [
+      1.2957381683673093,
+      103.77937146095279
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "S4A-01-MALE",
+    "location": [
+      1.295725911104492,
+      103.77935225754894
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "S4A-02-FEMALE",
+    "location": [
+      1.2957165550557617,
+      103.77937584450338
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "S4A-02-HANDIC",
+    "location": [
+      1.2957384966541377,
+      103.77937157955354
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "S4A-02-MALE",
+    "location": [
+      1.2957265721963598,
+      103.77935232582422
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S4A-03-FEMALE",
+    "location": [
+      1.2957090551613795,
+      103.77937583747371
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S4A-03-MALE",
+    "location": [
+      1.2957303289489177,
+      103.77935338512702
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "S4A-03-HANDICAP",
+    "location": [
+      1.295728384024269,
+      103.77937032809697
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S6-04-FEMALE",
+    "location": [
+      1.2952399668868615,
+      103.78027583519376
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S6-04-MALE",
+    "location": [
+      1.2952281312268814,
+      103.78030726197933
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "S6-05-MALE",
+    "location": [
+      1.2952281312268814,
+      103.78030726197933
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S6-05-FEMALE",
+    "location": [
+      1.2952399668868615,
+      103.78027583519376
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "S6-06-MALE",
+    "location": [
+      1.2952281312268814,
+      103.78030726197933
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "S6-06-FEMALE",
+    "location": [
+      1.2952399668868615,
+      103.78027583519376
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "S8-04-MALE",
+    "location": [
+      1.2960018493380654,
+      103.77966548476674
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S8-04-FEMALE",
+    "location": [
+      1.2959883146155275,
+      103.77966527658961
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "S8-04-HANDIC",
+    "location": [
+      1.2960606796732923,
+      103.77969008923611
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S8-03-MALE",
+    "location": [
+      1.2959883146155275,
+      103.77966527658961
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "S8-02-FEMALE",
+    "location": [
+      1.2959890824264195,
+      103.77966553355681
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "S8-02-HANDIC",
+    "location": [
+      1.296060682386362,
+      103.77969008833752
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S3-01-FEMALE",
+    "location": [
+      1.295604926250825,
+      103.77889559267282
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "S3-02-MALE",
+    "location": [
+      1.2956256938697865,
+      103.77888608204978
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S3-03-FEMALE",
+    "location": [
+      1.2956256938697865,
+      103.77888608204978
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S3-04-MALE",
+    "location": [
+      1.2956256938697865,
+      103.77888608204978
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S3-05-FEMALE",
+    "location": [
+      1.2956256956783572,
+      103.77888607486139
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "S3-06-MTOILET",
+    "location": [
+      1.2956256938697865,
+      103.77888608204978
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "S5-01-FEMALE",
+    "location": [
+      1.2952884478896314,
+      103.77992568996443
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "S5-02-MALE",
+    "location": [
+      1.2952884478896314,
+      103.77992568996443
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "S5-03-FEMALE",
+    "location": [
+      1.2952884478896314,
+      103.77992568996443
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "S5-04-MALE",
+    "location": [
+      1.2952884478896314,
+      103.77992568996443
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "S5-05-FEMALE",
+    "location": [
+      1.2952884478896314,
+      103.77992568996443
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "S7-01-MALE",
+    "location": [
+      1.2964299759214524,
+      103.77867862536075
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "S7-02-FTOILET",
+    "location": [
+      1.2964204890673232,
+      103.77867533779411
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "S7-02-HANDIC",
+    "location": [
+      1.2964394627755993,
+      103.77868191472452
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "S7-03-MALE",
+    "location": [
+      1.2964204890673232,
+      103.77867533779411
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "S7-03-HANDIC",
+    "location": [
+      1.2964394627755993,
+      103.77868191472452
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "S7-04-FEMALE",
+    "location": [
+      1.2964299759214524,
+      103.77867862536075
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "CELS-01-FEMALE",
+    "location": [
+      1.2944655763957411,
+      103.78081818829249
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "CELS-01-MALE",
+    "location": [
+      1.2944917176511903,
+      103.78076025511326
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "MD1-01-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD1-01-HTOILET",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD1-01-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD1-03-FTOILET",
+    "location": [
+      1.2954804408263905,
+      103.7802670963538
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD1-03-MTOILET",
+    "location": [
+      1.2955103619446797,
+      103.78019179782444
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD1-03-HTOILET",
+    "location": [
+      1.2955062188646267,
+      103.78022581944586
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD1-03-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD1-03-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD1-03-HTOILET",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "MD1-05-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "MD1-05-HTOILET",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "MD1-05-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "MD1-06-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "MD1-06-HTOILET",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "MD1-06-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "MD1-08-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "MD1-08-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 8,
+    "code": "MD1-08-HTOILET",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 8,
+    "code": "MD1-08-MTOILET",
+    "location": [
+      1.2950820671096852,
+      103.78081495522892
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 8,
+    "code": "MD1-08-FTOILET",
+    "location": [
+      1.295067841500801,
+      103.78086045863243
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 8,
+    "code": "MD1-08-HTOILET",
+    "location": [
+      1.2950943903634617,
+      103.78083335982956
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 9,
+    "code": "MD1-09-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 9,
+    "code": "MD1-09-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 9,
+    "code": "MD1-09-HANDIC",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 9,
+    "code": "MD1-09-MTOILET",
+    "location": [
+      1.2950820671096852,
+      103.78081495522892
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 9,
+    "code": "MD1-09-FTOILET",
+    "location": [
+      1.295067841500801,
+      103.78086045863243
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 9,
+    "code": "MD1-09-HANDIC",
+    "location": [
+      1.2950943903634617,
+      103.78083335982956
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 10,
+    "code": "MD1-10-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 10,
+    "code": "MD1-10-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 10,
+    "code": "MD1-10-HTOILET",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 10,
+    "code": "MD1-10-MTOILET",
+    "location": [
+      1.2950820671096852,
+      103.78081495522892
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 10,
+    "code": "MD1-10-FTOILET",
+    "location": [
+      1.295067841500801,
+      103.78086045863243
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 10,
+    "code": "MD1-10-HTOILET",
+    "location": [
+      1.2950943903634617,
+      103.78083335982956
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 11,
+    "code": "MD1-11-MTOILET",
+    "location": [
+      1.2953820906528022,
+      103.78049946161917
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 11,
+    "code": "MD1-11-FTOILET",
+    "location": [
+      1.2954060527463351,
+      103.78045890448566
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 11,
+    "code": "MD1-11-HANDIC",
+    "location": [
+      1.2954027841837312,
+      103.78049296113045
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 11,
+    "code": "MD1-11-MTOILET",
+    "location": [
+      1.2950820671096852,
+      103.78081495522892
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 11,
+    "code": "MD1-11-FTOILET",
+    "location": [
+      1.295067841500801,
+      103.78086045863243
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 11,
+    "code": "MD1-11-HANDIC",
+    "location": [
+      1.2950943903634617,
+      103.78083335982956
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 6,
+    "code": "MD3-06-FEMALE",
+    "location": [
+      1.295196342694889,
+      103.78099317168048
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 6,
+    "code": "MD3-06-MALE",
+    "location": [
+      1.295180978279059,
+      103.78102861412326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 6,
+    "code": "MD3-06-HANDIC",
+    "location": [
+      1.2951971188392943,
+      103.78104632407376
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "MD3-05-FEMALE",
+    "location": [
+      1.295196342694889,
+      103.78099317168048
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "MD3-05-MALE",
+    "location": [
+      1.295180978279059,
+      103.78102861412326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "MD3-05-HANDIC",
+    "location": [
+      1.2951971188392943,
+      103.78104632407376
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD3-04-FEMALE",
+    "location": [
+      1.2951963426947768,
+      103.78099316628922
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "MD3-04-MALE",
+    "location": [
+      1.295180978279059,
+      103.78102861412326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD3-04-HANDIC",
+    "location": [
+      1.2951971188392943,
+      103.78104632407376
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD3-03-FEMALE",
+    "location": [
+      1.295196352643122,
+      103.7809931824628
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD3-03-MALE",
+    "location": [
+      1.295180978279059,
+      103.78102861412326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD3-03-HANDIC",
+    "location": [
+      1.2951971188392943,
+      103.78104632407376
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD3-02-FEMALE",
+    "location": [
+      1.2951962802932437,
+      103.78099314831964
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "MD3-02-MALE",
+    "location": [
+      1.295180978279059,
+      103.78102861412326
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD3-02-HANDIC",
+    "location": [
+      1.2951971188392943,
+      103.78104632407376
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "MD4-05-MALE1",
+    "location": [
+      1.2957994833718967,
+      103.78073885272234
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "MD4-05-HANDIC1",
+    "location": [
+      1.2958269370983266,
+      103.78073573421135
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "MD4-05-FEMALE1",
+    "location": [
+      1.295622530218452,
+      103.78070615569314
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD4-04-FEMALE1",
+    "location": [
+      1.2957994833718967,
+      103.78073885272234
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD4-04-HANDIC1",
+    "location": [
+      1.2958306377848159,
+      103.78073703432696
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "MD4-04-MALE1",
+    "location": [
+      1.295622530218452,
+      103.78070615569314
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD4-01-HANDIC1",
+    "location": [
+      1.2956078293808855,
+      103.78073060535375
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "MD4-01-FEMALE1",
+    "location": [
+      1.2956218790389091,
+      103.78070437928689
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD4-01-MALE1",
+    "location": [
+      1.295797975785284,
+      103.78073832261298
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "MD4-01-FEMALE2",
+    "location": [
+      1.295601541551069,
+      103.78117569071306
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD4-01-HANDIC2",
+    "location": [
+      1.2955769068143774,
+      103.78118298648809
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD4-02-HANDIC1",
+    "location": [
+      1.295817155420693,
+      103.78073230018116
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD4-02-FEMALE1",
+    "location": [
+      1.2957946422734663,
+      103.78073715277856
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "MD4-02-MALE1",
+    "location": [
+      1.295622530218452,
+      103.78070615569314
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "MD4-02-MALE2",
+    "location": [
+      1.295601541551069,
+      103.78117569071306
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD4-02-HANDIC2",
+    "location": [
+      1.2955769068143774,
+      103.78118298648809
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD4-03-FEMALE1",
+    "location": [
+      1.295622530218452,
+      103.78070615569314
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD4-03-MALE1",
+    "location": [
+      1.2957996949947306,
+      103.78073892729705
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD4-03-HANDIC2",
+    "location": [
+      1.2955769068143774,
+      103.78118298648809
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD4-03-HANDIC1",
+    "location": [
+      1.2958306377848159,
+      103.78073703432696
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD4-03-FEMALE2",
+    "location": [
+      1.2955843565319807,
+      103.78116190292091
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD4-03-MALE2",
+    "location": [
+      1.2956048136295326,
+      103.78117993176951
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD7-01-MALE",
+    "location": [
+      1.2961702928635825,
+      103.7808770760733
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "MD7-01-FEMALE",
+    "location": [
+      1.2960581504175543,
+      103.78133962687913
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "MD7-02-MALE",
+    "location": [
+      1.2960663458285737,
+      103.78134254607902
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD7-02-FEMALE",
+    "location": [
+      1.2961829603904795,
+      103.78088158829704
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD7-02-HANDIC",
+    "location": [
+      1.2961606258307519,
+      103.78086358554341
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD7-03-MALE",
+    "location": [
+      1.2961829603904795,
+      103.78088158829704
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD7-03-HANDIC",
+    "location": [
+      1.2961606258307519,
+      103.78086358554341
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD7-04-FEMALE",
+    "location": [
+      1.2961829603904795,
+      103.78088158829704
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD7-04-HANDIC",
+    "location": [
+      1.2961606258307519,
+      103.78086358554341
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD9-01-MALE",
+    "location": [
+      1.2966891105889145,
+      103.78105664200324
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD9-01-HANDIC",
+    "location": [
+      1.2967184671758596,
+      103.7810572488164
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "LT26-01-MTOILET",
+    "location": [
+      1.2963685760179415,
+      103.78098047276796
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "LT26-01-FTOILET",
+    "location": [
+      1.2963580118560971,
+      103.78101045647803
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "LT27-LF-FEMALE",
+    "location": [
+      1.2970715041010181,
+      103.78097876996308
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "LT27-LF-MALE",
+    "location": [
+      1.2968835350750358,
+      103.7809116517251
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD9-02-FEMALE",
+    "location": [
+      1.2966891105889145,
+      103.78105664200324
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD9-03-MALE",
+    "location": [
+      1.2966891105889145,
+      103.78105664200324
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD9-04-HANDIC",
+    "location": [
+      1.2967184671758596,
+      103.7810572488164
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD9-04-FEMALE",
+    "location": [
+      1.2966891105889145,
+      103.78105664200324
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "FOD-01-MALE2",
+    "location": [
+      1.2967726085804516,
+      103.7816612216916
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "FOD-01-FEMALE2",
+    "location": [
+      1.2967846567435046,
+      103.78162790614954
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "FOD-01-MALE1",
+    "location": [
+      1.296972437754648,
+      103.78196536745229
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "FOD-01-FEMALE1",
+    "location": [
+      1.29693999709138,
+      103.78195529453438
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "FOD-01-HANDIC",
+    "location": [
+      1.2969161911702722,
+      103.78193887502941
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "FOD-02-MALE1",
+    "location": [
+      1.296972437754648,
+      103.78196536745229
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "FOD-02-FEMALE1",
+    "location": [
+      1.2969399970913615,
+      103.78195529363585
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "FOD-02-MALE2",
+    "location": [
+      1.2967703195604727,
+      103.7816576419407
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "FOD-02-FEMALE2",
+    "location": [
+      1.2967846567434862,
+      103.78162790525099
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "FOD-02-HANDIC2",
+    "location": [
+      1.2967793978624866,
+      103.78167183874403
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "FOD-02-HANDIC1",
+    "location": [
+      1.2969161920746168,
+      103.78193887413084
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "FOD-03-MALE1",
+    "location": [
+      1.296972437754648,
+      103.78196536745229
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "FOD-03-FEMALE1",
+    "location": [
+      1.29693999709138,
+      103.78195529453438
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "FOD-03-HANDIC1",
+    "location": [
+      1.2969161911702722,
+      103.78193887502941
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "FOD-03-MALE2",
+    "location": [
+      1.2967703277031708,
+      103.78165780817108
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "FOD-03-FEMALE2",
+    "location": [
+      1.2967846567434862,
+      103.78162790525099
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "FOD-03-HANDIC2",
+    "location": [
+      1.2967798048297574,
+      103.78167199777798
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "MD6-01-FTOILET",
+    "location": [
+      1.295262504587378,
+      103.78162531057727
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD6-01-HCTOILET",
+    "location": [
+      1.2952545021499196,
+      103.78159509004374
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD6-01-MTOILET",
+    "location": [
+      1.2952290745119308,
+      103.78161347924112
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD6-02-FTOILET",
+    "location": [
+      1.295262504587378,
+      103.78162531057727
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD6-02-HCTOILET",
+    "location": [
+      1.2952545021499196,
+      103.78159509004374
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "MD6-02-MTOILET",
+    "location": [
+      1.2952290745119308,
+      103.78161347924112
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD6-03-FTOILET",
+    "location": [
+      1.295262504587378,
+      103.78162531057727
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD6-03-HCTOILET",
+    "location": [
+      1.2952545021499196,
+      103.78159509004374
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD6-03-MTOILET",
+    "location": [
+      1.2952290745119308,
+      103.78161347924112
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD6-04-FTOILET",
+    "location": [
+      1.295262504587378,
+      103.78162531057727
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD6-04-HCTOILET",
+    "location": [
+      1.2952545021499196,
+      103.78159509004374
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "MD6-04-MTOILET",
+    "location": [
+      1.2952290745119308,
+      103.78161347924112
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "MD6-04-MTOILET",
+    "location": [
+      1.2954212358042363,
+      103.78166346758371
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD6-04-FTOILET",
+    "location": [
+      1.295410116375036,
+      103.78169448551424
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "MD6-05-FTOILET",
+    "location": [
+      1.295262504587378,
+      103.78162531057727
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "MD6-05-HCTOILET",
+    "location": [
+      1.2952545021499196,
+      103.78159509004374
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "MD6-05-MTOILET",
+    "location": [
+      1.2952290745119308,
+      103.78161347924112
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "MD10-04-MALE",
+    "location": [
+      1.2963532010242989,
+      103.78199515406732
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD10-04-HANDIC",
+    "location": [
+      1.2963909813265766,
+      103.78197420286902
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD10-03-FEMALE",
+    "location": [
+      1.2963532010242989,
+      103.78199515406732
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD10-03-HANDIC",
+    "location": [
+      1.2963968235635541,
+      103.78197628737195
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD10-02-FEMALE",
+    "location": [
+      1.2963532010242989,
+      103.78199515406732
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD10-02-HANDIC",
+    "location": [
+      1.2963909813265766,
+      103.78197420286902
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD10-01-HANDIC",
+    "location": [
+      1.2963909813265766,
+      103.78197420286902
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD10-01-MALE",
+    "location": [
+      1.2963532010242989,
+      103.78199515406732
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 1,
+    "code": "MD11-01-MALE",
+    "location": [
+      1.2959587783767827,
+      103.78171202475093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 1,
+    "code": "MD11-01-FEMALE",
+    "location": [
+      1.295968116985992,
+      103.78167485542288
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 1,
+    "code": "MD11-01-HANDIC",
+    "location": [
+      1.2959484321216312,
+      103.78169614680321
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 2,
+    "code": "MD11-02-MALE",
+    "location": [
+      1.2959587774724028,
+      103.78171202475095
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 2,
+    "code": "MD11-02-FEMALE",
+    "location": [
+      1.2959681160816292,
+      103.7816748554229
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 2,
+    "code": "MD11-02-HANDIC",
+    "location": [
+      1.295948432121613,
+      103.78169614590466
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "MD11-03-MALE",
+    "location": [
+      1.2959587783767827,
+      103.78171202475093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 3,
+    "code": "MD11-03-FEMALE",
+    "location": [
+      1.2959681160816476,
+      103.78167485632143
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 3,
+    "code": "MD11-03-HANDIC",
+    "location": [
+      1.29594843212165,
+      103.78169614770177
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 4,
+    "code": "MD11-04-MALE",
+    "location": [
+      1.2959587783767827,
+      103.78171202475093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 4,
+    "code": "MD11-04-FEMALE",
+    "location": [
+      1.295968116985992,
+      103.78167485542288
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 4,
+    "code": "MD11-04-HANDIC",
+    "location": [
+      1.2959484321216312,
+      103.78169614680321
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 5,
+    "code": "MD11-05-MALE",
+    "location": [
+      1.2959587783767827,
+      103.78171202475093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": 5,
+    "code": "MD11-05-FEMALE",
+    "location": [
+      1.2959681169860104,
+      103.78167485632142
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": 5,
+    "code": "MD11-05-HANDIC",
+    "location": [
+      1.2959484321216312,
+      103.78169614680321
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": -1,
+    "code": "MD11-B1-MALE",
+    "location": [
+      1.2959587783767827,
+      103.78171202475093
+    ]
+  },
+  {
+    "name": "Female",
+    "floor": -1,
+    "code": "MD11-B1-FEMALE",
+    "location": [
+      1.295968116985992,
+      103.78167485542288
+    ]
+  },
+  {
+    "name": "Handicapped",
+    "floor": -1,
+    "code": "MD11-B1-HANDIC",
+    "location": [
+      1.2959484321216312,
+      103.78169614680321
+    ]
+  },
+  {
+    "name": "Male",
+    "floor": 3,
+    "code": "E4-03-MTOILET2",
+    "location": [
+      1.2990293656427219,
+      103.77177955164962
+    ]
+  }
+]

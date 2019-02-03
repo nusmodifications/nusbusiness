@@ -1,0 +1,23 @@
+{
+  "name": "nusbusiness",
+  "version": "1.0.0",
+  "description": "Help NUS students find their nearest business opportunity",
+  "main": "index.js",
+  "repository": "git@gitlab.com:nusmodifications/nusbusiness.git",
+  "author": "Zhang Yi Jiang <mediumdeviation@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel *.html",
+    "build": "parcel build *.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.16.1"
+  },
+  "dependencies": {
+    "flatbush": "^3.1.1",
+    "leaflet": "^1.4.0",
+    "normalize.css": "^8.0.1"
+  }
+}
