@@ -1,7 +1,27 @@
-#map {
+.fade {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hide {
+  display: none !important;
+}
+
+.overlay {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+.intro-overlay {
+  z-index: 10000;
+  background: rgba(#000, 0.7);
+  display: flex;
+  flex-direction: column;
+}
+
+#map {
+
 }
