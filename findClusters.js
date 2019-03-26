@@ -3,13 +3,13 @@
  * which is not very useful for us, so we naively cluster toilets together to get a rough
  */
 
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const _ = require('lodash');
-const Flatbush = require('flatbush');
+const _ = require("lodash");
+const Flatbush = require("flatbush");
 
-const toilets = require('./map/toilets.json');
+const toilets = require("./map/toilets.json");
 
 // Create an index of toilets
 const toiletIndex = new Flatbush(toilets.length);
@@ -29,21 +29,35 @@ toilets.forEach((toilet, current) => {
   // Find all toilets within 10m of this one
   const [y, x] = toilet.location;
   const cluster = toiletIndex
-    .neighbors(x, y, Infinity, maxDistance, (index) => !clusteredToilets.has(index))
+    .neighbors(
+      x,
+      y,
+      Infinity,
+      maxDistance,
+      index => !clusteredToilets.has(index)
+    )
     .concat([current]);
 
   cluster.forEach(index => clusteredToilets.add(index));
 
   // Average out lat and lng of toilets in the cluster
-  const clusterLat = _.sumBy(cluster, index => toilets[index].location[0]) / cluster.length;
-  const clusterLng = _.sumBy(cluster, index => toilets[index].location[1]) / cluster.length;
+  const clusterLat =
+    _.sumBy(cluster, index => toilets[index].location[0]) / cluster.length;
+  const clusterLng =
+    _.sumBy(cluster, index => toilets[index].location[1]) / cluster.length;
 
   clusters.push({
     location: [clusterLat, clusterLng],
-    toilets: _.sortBy(cluster.map(index => toilets[index]), toilet => toilet.floor),
+    toilets: _.sortBy(
+      cluster.map(index => toilets[index]),
+      toilet => toilet.floor
+    )
   });
 });
 
 console.log(`Found ${clusters.length} clusters`);
 
-fs.writeFileSync(path.join(__dirname, './map/clusters.json'), JSON.stringify(clusters, null, 2));
+fs.writeFileSync(
+  path.join(__dirname, "./map/clusters.json"),
+  JSON.stringify(clusters, null, 2)
+);

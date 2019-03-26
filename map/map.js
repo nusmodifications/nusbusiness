@@ -1,14 +1,14 @@
 import * as L from "leaflet";
-import Flatbush from 'flatbush';
+import Flatbush from "flatbush";
 
-import clusters from './clusters.json';
-import markerUrl from './icons/marker.svg';
+import clusters from "./clusters.json";
+import markerUrl from "./icons/marker.svg";
 
 // Get the starting location from params
 // TODO: Add a sensible default latlng
-// const params = new URLSearchParams(window.location.search);
-// const lat = parseFloat(params.get('lat'));
-// const lng = parseFloat(params.get('lng'));
+const params = new URLSearchParams(window.location.search);
+const lat = parseFloat(params.get('lat'));
+const lng = parseFloat(params.get('lng'));
 
 // TODO: Highlight nearest n toilet
 // TODO: Build UI to display toilet info
@@ -20,11 +20,12 @@ export default class ToiletMap {
     // TODO: Don't let the user pan outside the school
     this.map = L.map(id, {
       center: [lat, lng],
-      zoom: 18,
+      zoom: 18
     });
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(this.map);
 
     // Create spatial index for searching
@@ -42,7 +43,7 @@ export default class ToiletMap {
       //       are available
       iconUrl: markerUrl,
       iconSize: [24, 24],
-      iconAnchor: [12, 24],
+      iconAnchor: [12, 24]
     });
 
     clusters.forEach(cluster => {
@@ -57,6 +58,5 @@ export default class ToiletMap {
       .map(index => clusters[index]);
 
     this.map.panTo(nearestToilets[0].location);
-  }
+  };
 }
-
