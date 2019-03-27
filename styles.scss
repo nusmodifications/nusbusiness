@@ -1,10 +1,21 @@
-.fade {
-  opacity: 0;
-  transition: opacity 0.3s;
+// Layout
+#map,
+#sidebar {
+  position: absolute;
 }
 
-.hide {
-  display: none !important;
+#map {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 20rem;
+}
+
+#sidebar {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20rem;
 }
 
 .overlay {
@@ -15,6 +26,16 @@
   left: 0;
 }
 
+// Homepage
+.fade {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hide {
+  display: none !important;
+}
+
 .intro-overlay {
   z-index: 10000;
   background: rgba(#000, 0.7);
@@ -22,5 +43,11 @@
   flex-direction: column;
 }
 
-#map {
+// Results page
+#list {
+  list-style: none;
+
+  li {
+
+  }
 }
