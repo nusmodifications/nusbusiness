@@ -2,13 +2,21 @@
   <div>
     <toilet-filters></toilet-filters>
 
-    <ul class="toilet-list">
-      <li v-for="cluster in shownToilets">
+    <ol class="toilet-list">
+      <li
+        v-for="(cluster, index) in shownToilets"
+        :key="cluster.id"
+        :class="{ hover: highlightToilet === cluster.id }"
+        @mouseover="hoverToilet(cluster.id)"
+        @mouseout="hoverToilet(null)"
+      >
+        <span>{{ index + 1 }}</span>
+
         Distance: {{ distance(cluster.location, location) }}
 
         <toilet-list-item :toilets="cluster.toilets" />
       </li>
-    </ul>
+    </ol>
   </div>
 </template>
 
@@ -16,6 +24,8 @@
 import ToiletFilters from "./ToiletFilters";
 import ToiletListItem from "./ToiletListItem";
 import { distance, renderDistance } from "./utils";
+
+const DEFAULT_RESULTS_COUNT = 10;
 
 export default {
   name: "Sidebar",
@@ -25,11 +35,11 @@ export default {
     ToiletListItem,
   },
 
-  props: ["location", "toilets"],
+  props: ["location", "toilets", "highlight-toilet"],
 
   data() {
     return {
-      showItems: 10,
+      showItems: DEFAULT_RESULTS_COUNT,
     };
   },
 
@@ -42,6 +52,10 @@ export default {
   methods: {
     distance(fromLatLng, toLatLng) {
       return renderDistance(distance(fromLatLng, toLatLng));
+    },
+
+    hoverToilet(index) {
+      this.$emit("update:highlight-toilet", index);
     },
   },
 };
@@ -61,7 +75,8 @@ export default {
     padding: 0.5rem 0.8rem;
     margin: 0;
 
-    &:hover {
+    &:hover,
+    &.hover {
       cursor: pointer;
       background: rgba(#000, 0.2);
     }

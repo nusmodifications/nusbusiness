@@ -4,11 +4,19 @@
 
     <toilet-map
       class="map"
-      :location="location"
+      :location.sync="location"
       :toilets="toilets"
+      :highlight-toilet.sync="hoverToilet"
+      @toilet:click="onToiletClick"
     ></toilet-map>
 
-    <sidebar class="sidebar" :location="location" :toilets="sortedToilets" />
+    <sidebar
+      class="sidebar"
+      :location="location"
+      :toilets="sortedToilets"
+      :highlight-toilet.sync="hoverToilet"
+      @toilet:click="onToiletClick"
+    />
   </div>
 </template>
 
@@ -17,8 +25,6 @@ import ToiletMap from "./ToiletMap";
 import Sidebar from "./Sidebar";
 import Overlay from "./Overlay";
 import clusters from "./clusters";
-
-const NEAREST_RESULTS = 10;
 
 // Get the starting location from params. If not provided, use Central Library's location
 const params = new URLSearchParams(window.location.search);
@@ -38,10 +44,11 @@ export default {
     return {
       showOverlay: true,
 
+      // Toilet state
+      hoverToilet: null,
+
       // Map related state
       location: [lat, lng],
-      toilets: clusters.toilets,
-      toiletIndex: clusters.index,
     };
   },
 
@@ -49,9 +56,14 @@ export default {
     sortedToilets() {
       const [lat, lng] = this.location;
       return this.toiletIndex
-        .neighbors(lat, lng)
+        .neighbors(lng, lat)
         .map(index => this.toilets[index]);
     },
+  },
+
+  created() {
+    this.toilets = clusters.toilets;
+    this.toiletIndex = clusters.index;
   },
 
   methods: {
@@ -59,6 +71,12 @@ export default {
       this.location = newLocation;
       this.showOverlay = false;
     },
+
+    onToiletHover(index) {
+      this.hoverToilet = index;
+    },
+
+    onToiletClick() {},
   },
 };
 </script>
