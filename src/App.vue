@@ -7,6 +7,7 @@
       :location.sync="location"
       :toilets="toilets"
       :highlight-toilet.sync="hoverToilet"
+      :shown-toilets="sortedToilets"
       @toilet:click="onToiletClick"
     ></toilet-map>
 
@@ -25,6 +26,8 @@ import ToiletMap from "./ToiletMap";
 import Sidebar from "./Sidebar";
 import Overlay from "./Overlay";
 import clusters from "./clusters";
+
+const DEFAULT_RESULTS_COUNT = 10;
 
 // Get the starting location from params. If not provided, use Central Library's location
 const params = new URLSearchParams(window.location.search);
@@ -46,6 +49,7 @@ export default {
 
       // Toilet state
       hoverToilet: null,
+      shownItems: DEFAULT_RESULTS_COUNT,
 
       // Map related state
       location: [lat, lng],
@@ -57,7 +61,8 @@ export default {
       const [lat, lng] = this.location;
       return this.toiletIndex
         .neighbors(lng, lat)
-        .map(index => this.toilets[index]);
+        .map(index => this.toilets[index])
+        .slice(0, this.shownItems);
     },
   },
 
@@ -86,7 +91,7 @@ $sidebar-width: 20rem;
 
 .map,
 .sidebar {
-  position: absolute;
+  position: fixed;
 }
 
 .map {

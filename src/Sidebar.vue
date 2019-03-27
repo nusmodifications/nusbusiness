@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="container">
     <toilet-filters></toilet-filters>
 
     <ol class="toilet-list">
       <li
-        v-for="(cluster, index) in shownToilets"
+        v-for="(cluster, index) in toilets"
         :key="cluster.id"
         :class="{ hover: highlightToilet === cluster.id }"
         @mouseover="hoverToilet(cluster.id)"
@@ -25,8 +25,6 @@ import ToiletFilters from "./ToiletFilters";
 import ToiletListItem from "./ToiletListItem";
 import { distance, renderDistance } from "./utils";
 
-const DEFAULT_RESULTS_COUNT = 10;
-
 export default {
   name: "Sidebar",
 
@@ -38,15 +36,7 @@ export default {
   props: ["location", "toilets", "highlight-toilet"],
 
   data() {
-    return {
-      showItems: DEFAULT_RESULTS_COUNT,
-    };
-  },
-
-  computed: {
-    shownToilets() {
-      return this.toilets.slice(0, this.showItems);
-    },
+    return {};
   },
 
   methods: {
@@ -62,10 +52,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.container {
+  overflow: auto;
+}
+
 .toilet-list {
-  list-style: none;
   padding: 0;
   margin: 0;
+  list-style: none;
 
   p {
     margin: 0;

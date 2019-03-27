@@ -14,28 +14,45 @@
       <l-marker
         v-for="cluster in toilets"
         :lat-lng="cluster.location"
-        :icon="icon"
         @mouseover="hoverToilet(cluster.id)"
         @mouseout="hoverToilet(null)"
-      ></l-marker>
+      >
+        <l-icon
+          :icon-url="markerUrl"
+          :icon-anchor="[12, 24]"
+          :icon-size="[24, 24]"
+          :class-name="markerClassName(cluster.id)"
+        ></l-icon>
+      </l-marker>
 
-      <l-circle-marker :lat-lng="location"></l-circle-marker>
+      <l-circle-marker :lat-lng="location" :stroke="false"></l-circle-marker>
+
+      <l-polyline
+        v-if="highlightToilet"
+        :lat-lngs="[location, highlightCluster.location]"
+      >
+        <l-tooltip
+          :options="{ permanent: true, direction: 'top', offset: [0, -5] }"
+          >{{ distance(location, highlightCluster.location) }}</l-tooltip
+        >
+      </l-polyline>
     </l-map>
   </div>
 </template>
 
 <script>
-import { LMap, LTileLayer, LCircleMarker, LMarker } from "vue2-leaflet";
-import { icon as LeafletIcon } from "leaflet";
+import classnames from "classnames";
+import {
+  LMap,
+  LTileLayer,
+  LCircleMarker,
+  LMarker,
+  LPolyline,
+  LTooltip,
+  LIcon,
+} from "vue2-leaflet";
 import markerUrl from "./icons/marker.svg";
-
-const icon = LeafletIcon({
-  // TODO: Find a better icon, maybe use different icons based on what toilets
-  //       are available
-  iconUrl: markerUrl,
-  iconSize: [24, 24],
-  iconAnchor: [12, 24],
-});
+import { distance, renderDistance } from "./utils";
 
 export default {
   name: "ToiletMap",
@@ -45,13 +62,27 @@ export default {
     LTileLayer,
     LMarker,
     LCircleMarker,
+    LPolyline,
+    LTooltip,
+    LIcon,
   },
 
-  props: ["location", "toilets", "highlight-toilet"],
+  props: ["location", "toilets", "shown-toilets", "highlight-toilet"],
 
   created() {
     this.center = this.location;
-    this.icon = icon;
+    // TODO: Find a better icon, maybe use different icons based on what toilets
+    this.markerUrl = markerUrl;
+  },
+
+  computed: {
+    highlightCluster() {
+      return this.toilets.find(cluster => cluster.id === this.highlightToilet);
+    },
+
+    shownToiletIds() {
+      return new Set(this.shownToilets.map(cluster => cluster.id));
+    },
   },
 
   methods: {
@@ -75,8 +106,28 @@ export default {
     clickToilet(index) {
       this.$emit("toilet:click", index);
     },
+
+    distance(fromLatLng, toLatLng) {
+      return renderDistance(distance(fromLatLng, toLatLng));
+    },
+
+    markerClassName(id) {
+      return classnames("toilet-marker", {
+        toiletMarker: true,
+        shown: this.shownToiletIds.has(id),
+      });
+    },
   },
 };
 </script>
 
-<style scoped></style>
+<style lang="scss">
+.toilet-marker {
+  opacity: 0.3;
+  transition: opacity 0.5s;
+
+  &.shown {
+    opacity: 1;
+  }
+}
+</style>
