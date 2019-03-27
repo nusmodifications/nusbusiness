@@ -9,7 +9,7 @@ const path = require("path");
 const _ = require("lodash");
 const Flatbush = require("flatbush");
 
-const toilets = require("./map/toilets.json");
+const toilets = require("./toilets.json");
 
 // Create an index of toilets
 const toiletIndex = new Flatbush(toilets.length);
