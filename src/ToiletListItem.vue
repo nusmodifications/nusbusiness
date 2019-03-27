@@ -1,7 +1,13 @@
 <template>
   <div>
-    <p>{{ name }}</p>
-    <p>{{ toilets.length }} toilets</p>
+    <p>{{ cluster.name }}</p>
+
+    <table>
+      <tr v-for="(floors, name) in cluster.floors">
+        <th>{{ name }}</th>
+        <td>{{ floors.join(", ") }}</td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -9,12 +15,18 @@
 export default {
   name: "ToiletListItem",
 
-  props: ["toilets"],
+  props: ["cluster"],
 
   computed: {
-    name() {
-      const toilet = this.toilets[0];
-      return toilet.code.split("-")[0];
+    toiletCount() {
+      const count = {};
+
+      this.toilets.forEach(toilet => {
+        if (!count[toilet.name]) count[toilet.name] = [];
+        count[toilet.name].push(toilet.floor);
+      });
+
+      return count;
     },
   },
 };

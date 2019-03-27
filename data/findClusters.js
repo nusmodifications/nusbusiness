@@ -58,6 +58,6 @@ toilets.forEach((toilet, current) => {
 console.log(`Found ${clusters.length} clusters`);
 
 fs.writeFileSync(
-  path.join(__dirname, "./map/clusters.json"),
+  path.join(__dirname, "./clusters-raw.json"),
   JSON.stringify(clusters, null, 2)
 );

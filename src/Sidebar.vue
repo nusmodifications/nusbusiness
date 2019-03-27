@@ -12,9 +12,9 @@
       >
         <span>{{ index + 1 }}</span>
 
-        Distance: {{ distance(cluster.location, location) }}
+        <span>{{ distance(cluster.location, location) }}</span>
 
-        <toilet-list-item :toilets="cluster.toilets" />
+        <toilet-list-item :cluster="cluster" />
       </li>
     </ol>
   </div>

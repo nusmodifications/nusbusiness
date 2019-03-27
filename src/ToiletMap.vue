@@ -16,6 +16,7 @@
         :lat-lng="cluster.location"
         @mouseover="hoverToilet(cluster.id)"
         @mouseout="hoverToilet(null)"
+        @click="$event.originalEvent.preventDefault()"
       >
         <l-icon
           :icon-url="markerUrl"
