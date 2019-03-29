@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <toilet-filters></toilet-filters>
+  <div class="wrapper">
+    <!--    <toilet-filters></toilet-filters>-->
 
     <ol class="toilet-list">
       <li
@@ -10,13 +10,31 @@
         @mouseover="hoverToilet(cluster.id)"
         @mouseout="hoverToilet(null)"
       >
-        <span>{{ index + 1 }}</span>
-
-        <span>{{ distance(cluster.location, location) }}</span>
-
-        <toilet-list-item :cluster="cluster" />
+        <toilet-list-item
+          :index="index + 1"
+          :cluster="cluster"
+          :distance="distance(cluster.location, location)"
+        />
       </li>
     </ol>
+
+    <div class="attribution">
+      Icons made by
+      <a
+        href="https://www.flaticon.com/authors/kiranshastry"
+        title="Kiranshastry"
+        >Kiranshastry</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+      is licensed by
+      <a
+        href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0"
+        target="_blank"
+        >CC 3.0 BY</a
+      >
+    </div>
   </div>
 </template>
 
@@ -52,7 +70,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
+@import "./variables";
+
+.wrapper {
   overflow: auto;
 }
 
@@ -72,8 +92,13 @@ export default {
     &:hover,
     &.hover {
       cursor: pointer;
-      background: rgba(#000, 0.2);
+      background: rgba($theme-primary, 0.2);
     }
   }
+}
+
+.attribution {
+  opacity: 0.7;
+  margin: 4rem 2rem;
 }
 </style>

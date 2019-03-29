@@ -5,6 +5,7 @@
     <toilet-map
       class="map"
       :location.sync="location"
+      :center.sync="center"
       :toilets="toilets"
       :highlight-toilet.sync="hoverToilet"
       :shown-toilets="sortedToilets"
@@ -27,7 +28,7 @@ import Sidebar from "./Sidebar";
 import Overlay from "./Overlay";
 import clusters from "./clusters";
 
-const DEFAULT_RESULTS_COUNT = 10;
+const DEFAULT_RESULTS_COUNT = 5;
 
 // Get the starting location from params. If not provided, use Central Library's location
 const params = new URLSearchParams(window.location.search);
@@ -53,6 +54,7 @@ export default {
 
       // Map related state
       location: [lat, lng],
+      center: [lat, lng],
     };
   },
 
@@ -87,7 +89,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$sidebar-width: 20rem;
+$sidebar-width: 30rem;
 
 .map,
 .sidebar {

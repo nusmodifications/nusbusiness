@@ -41,3 +41,21 @@ export function renderDistance(distanceInMeters) {
 
   return distanceInMeters.toFixed(1) + "m";
 }
+
+export function deltas(array) {
+  let previous = array[0];
+  if (typeof previous === "undefined") return [];
+
+  const results = [];
+  for (const next of array.slice(1)) {
+    results.push(next - previous);
+    previous = next;
+  }
+
+  return results;
+}
+
+export function floorName(floor) {
+  if (floor < 0) return `B${-floor}`;
+  return "L" + floor;
+}

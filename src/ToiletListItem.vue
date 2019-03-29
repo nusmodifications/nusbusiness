@@ -1,35 +1,77 @@
 <template>
   <div>
-    <p>{{ cluster.name }}</p>
+    <p class="title">
+      <span class="index">{{ index }}</span>
+      <span class="name">{{ cluster.name }}</span>
+      <span class="distance">{{ distance }}</span>
+    </p>
 
-    <table>
+    <table class="table">
       <tr v-for="(floors, name) in cluster.floors">
         <th>{{ name }}</th>
-        <td>{{ floors.join(", ") }}</td>
+        <td>{{ formatFloors(floors) }}</td>
       </tr>
     </table>
   </div>
 </template>
 
 <script>
+import { deltas, floorName } from "./utils";
+
 export default {
   name: "ToiletListItem",
 
-  props: ["cluster"],
+  props: ["index", "cluster", "distance"],
 
-  computed: {
-    toiletCount() {
-      const count = {};
+  methods: {
+    formatFloors(floors) {
+      if (floors.length === 1) return floorName(floors[0]);
 
-      this.toilets.forEach(toilet => {
-        if (!count[toilet.name]) count[toilet.name] = [];
-        count[toilet.name].push(toilet.floor);
-      });
+      const basements = floors.filter(floor => floor < 0);
+      const aboveGround = floors.filter(floor => floor > 0);
 
-      return count;
+      if (
+        deltas(basements).every(delta => delta === 1) &&
+        deltas(aboveGround).every(delta => delta === 1)
+      ) {
+        return `${floorName(floors[0])} - ${floorName(
+          floors[floors.length - 1]
+        )}`;
+      }
+
+      return floors.map(floorName).join(", ");
     },
   },
 };
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.index {
+}
+
+.name {
+}
+
+.distance {
+}
+
+.table {
+  width: 100%;
+  margin: 0;
+
+  th,
+  td {
+    padding: 0.2rem;
+  }
+
+  th {
+    width: 8rem;
+  }
+}
+</style>
