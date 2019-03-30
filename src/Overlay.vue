@@ -1,25 +1,27 @@
 <template>
   <div class="overlay">
-    <h1 class="title">
-      NUS<br />
-      Business
-    </h1>
+    <div class="overlay-contents">
+      <h1 class="title">
+        NUS<br />
+        Business
+      </h1>
 
-    <p class="tagline">{{ tagline }}</p>
+      <p class="tagline">{{ tagline }}</p>
 
-    <div class="actions">
-      <button
-        type="button"
-        class="button-primary"
-        @click.prevent="getLocation"
-        :disabled="isSearching"
-      >
-        {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
-      </button>
-      <span class="or">or</span>
-      <button type="button" class="action-map" @click.prevent="close">
-        Just show me the map
-      </button>
+      <div class="actions">
+        <button
+          type="button"
+          class="button-primary"
+          @click.prevent="getLocation"
+          :disabled="isSearching"
+        >
+          {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
+        </button>
+        <span class="or">or</span>
+        <button type="button" class="action-map" @click.prevent="close">
+          Just show me the map
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -80,11 +82,21 @@ export default {
   left: 0;
   right: 0;
   z-index: 10000;
-  padding-top: calc(50vh - 35rem);
 
-  text-align: center;
-  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background: $theme-primary;
+}
+
+.overlay-contents {
+  color: #fff;
+  width: 80%;
+  max-width: 80rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -102,7 +114,6 @@ export default {
 .actions {
   button {
     height: 5rem;
-    width: 30rem;
     margin-bottom: 0;
     font-size: 1.4rem;
 
