@@ -1,15 +1,23 @@
 <template>
   <div class="overlay">
-    <h1 class="title">NUS<br /> Business</h1>
+    <h1 class="title">
+      NUS<br />
+      Business
+    </h1>
 
     <p class="tagline">{{ tagline }}</p>
 
     <div class="actions">
-      <button type="button" class="button-primary" @click.prevent="getLocation" :disabled="isSearching">
-        {{ isSearching ? 'Hold on to your butts...' : 'Use my location' }}
+      <button
+        type="button"
+        class="button-primary"
+        @click.prevent="getLocation"
+        :disabled="isSearching"
+      >
+        {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
       </button>
       <span class="or">or</span>
-      <button type="button" class="action-map" @click.prevent="">
+      <button type="button" class="action-map" @click.prevent="close">
         Just show me the map
       </button>
     </div>
@@ -37,7 +45,9 @@ export default {
   },
 
   methods: {
-    close() {},
+    close() {
+      this.$emit("close");
+    },
 
     getLocation() {
       this.isSearching = true;
@@ -53,6 +63,7 @@ export default {
 
         // Pan map to current location
         this.$emit("location", [latitude, longitude]);
+        this.close();
       });
     },
   },

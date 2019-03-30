@@ -1,6 +1,12 @@
 <template>
   <div>
-    <overlay v-if="showOverlay" @location="locationUpdated"></overlay>
+    <transition name="fade">
+      <overlay
+        v-if="showOverlay"
+        @location="locationUpdated"
+        @close="closeOverlay"
+      ></overlay>
+    </transition>
 
     <toilet-map
       class="map"
@@ -74,9 +80,12 @@ export default {
   },
 
   methods: {
+    closeOverlay() {
+      this.showOverlay = false;
+    },
+
     locationUpdated(newLocation) {
       this.location = newLocation;
-      this.showOverlay = false;
     },
 
     onToiletHover(index) {

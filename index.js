@@ -2,6 +2,7 @@
 import "normalize.css";
 import "leaflet/dist/leaflet.css";
 import "./src/skeleton.scss";
+import "./src/transitions.scss";
 
 import Vue from "vue";
 import App from "./src/App";
