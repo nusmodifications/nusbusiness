@@ -100,6 +100,7 @@ export default {
 }
 
 .title {
+  color: white;
   font-weight: bold;
   display: inline-block;
   font-size: 7rem;
