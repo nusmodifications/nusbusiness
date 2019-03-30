@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "dev": "parcel *.html",
-    "build": "parcel build *.html"
+    "build": "parcel build *.html",
+    "prettify": "prettier --write *.js src/**.js src/**.vue"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
