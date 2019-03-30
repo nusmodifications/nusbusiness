@@ -12,13 +12,13 @@
       ></l-tile-layer>
 
       <l-marker
-        v-for="(cluster, index) in toilets"
+        v-for="cluster in toilets"
         :lat-lng="cluster.location"
         @mouseover="hoverToilet(cluster.id)"
         @mouseout="hoverToilet(null)"
         @click="$event.originalEvent.preventDefault()"
       >
-        <l-icon :icon-size="[24, 24]" :class-name="markerClassName(cluster.id)">
+        <l-icon :icon-size="iconSize" :class-name="markerClassName(cluster.id)">
           <img :src="markerUrl" alt="Toilet" />
           <span v-if="shownToiletIds.has(cluster.id)" class="toilet-index">{{
             shownToiletIds.get(cluster.id)
@@ -37,10 +37,9 @@
         v-if="highlightToilet"
         :lat-lngs="[location, highlightCluster.location]"
       >
-        <l-tooltip
-          :options="{ permanent: true, direction: 'top', offset: [0, -5] }"
-          >{{ distance(location, highlightCluster.location) }}</l-tooltip
-        >
+        <l-tooltip :options="tooltipOptions">{{
+          distance(location, highlightCluster.location)
+        }}</l-tooltip>
       </l-polyline>
     </l-map>
   </div>
@@ -60,6 +59,9 @@ import {
 import markerUrl from "./icons/toilet.svg";
 import { distance, renderDistance } from "./utils";
 
+const iconSize = [24, 24];
+const tooltipOptions = { permanent: true, direction: "top", offset: [0, -5] };
+
 export default {
   name: "ToiletMap",
 
@@ -76,8 +78,9 @@ export default {
   props: ["location", "center", "toilets", "shown-toilets", "highlight-toilet"],
 
   created() {
-    // TODO: Find a better icon, maybe use different icons based on what toilets
     this.markerUrl = markerUrl;
+    this.iconSize = iconSize;
+    this.tooltipOptions = tooltipOptions;
   },
 
   computed: {
