@@ -43,9 +43,9 @@
         <l-icon :icon-size="iconSize" :class-name="markerClassName(cluster.id)">
           <img :src="markerUrl" alt="Toilet" />
           <toilet-index
-            v-show="shownToiletIds.has(cluster.id)"
+            v-show="cluster.id in shownToiletIds"
             class="toilet-index"
-            :index="shownToiletIds.get(cluster.id)"
+            :index="shownToiletIds[cluster.id]"
           ></toilet-index>
         </l-icon>
       </l-marker>
@@ -113,9 +113,9 @@ export default {
 
   computed: {
     shownToiletIds() {
-      const idMap = new Map();
+      const idMap = {};
       this.shownToilets.forEach((cluster, index) =>
-        idMap.set(cluster.id, index + 1)
+        idMap[cluster.id] = index + 1
       );
       return idMap;
     },
@@ -152,8 +152,8 @@ export default {
 
     markerClassName(id) {
       return classnames("toilet-marker", {
-        shown: this.shownToiletIds.has(id),
-        selected: this.selectedToilet.id === id,
+        shown: id in this.shownToiletIds,
+        selected: this.selectedToilet && this.selectedToilet.id === id,
       });
     },
   },

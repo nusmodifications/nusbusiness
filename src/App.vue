@@ -282,7 +282,7 @@ body {
 
     .map-wrapper {
       flex: 1;
-      min-height: 60vh;
+      height: 60vh;
     }
 
     .map {
