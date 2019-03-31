@@ -13,7 +13,9 @@
         </div>
       </div>
 
-      <p class="tagline">{{ tagline }}</p>
+      <transition name="spin" mode="out-in">
+        <p :key="tagline" class="tagline">{{ tagline }}</p>
+      </transition>
 
       <button type="button" class="button-primary" @click.prevent="getLocation">
         Use my location
@@ -45,10 +47,26 @@ export default {
     this.toiletUrl = toiletUrl;
   },
 
+  mounted() {
+    this.intervalId = setInterval(() => {
+      this.taglineIndex = (this.taglineIndex + 1) % TAGLINES.length;
+    }, 8000);
+  },
+
+  beforeDestroy() {
+    clearInterval(this.intervalId);
+  },
+
   data() {
     return {
-      tagline: TAGLINES[Math.floor(Math.random() * TAGLINES.length)],
+      taglineIndex: Math.floor(Math.random() * TAGLINES.length),
     };
+  },
+
+  computed: {
+    tagline() {
+      return TAGLINES[this.taglineIndex];
+    },
   },
 
   methods: {

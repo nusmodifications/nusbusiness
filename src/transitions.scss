@@ -7,3 +7,21 @@
 .fade-leave-to {
   opacity: 0;
 }
+
+.spin-enter-active,
+.spin-leave-active {
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.spin-enter {
+  transform: translate(0, -2rem);
+}
+
+.spin-enter,
+.spin-leave-to {
+  opacity: 0;
+}
+
+.spin-leave-to {
+  transform: translate(0, 2rem);
+}
