@@ -24,10 +24,8 @@
         {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
       </button>
       <span class="or">or</span>
-      <a href="/map">
-        <button type="button" class="action-map" @click.prevent="close">
-          Just show me the map
-        </button>
+      <a href="/map" class="button show-map" @click.prevent="close">
+        Just show me the map
       </a>
     </div>
   </div>
@@ -97,7 +95,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./skeleton";
+@import "./variables";
 @import "./utils";
 
 .overlay {
@@ -111,6 +109,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -10vh;
   text-align: center;
 
   background: $theme-primary;
@@ -136,6 +135,28 @@ export default {
     .right-pane {
       flex-basis: 0;
     }
+  }
+
+  button,
+  .button {
+    height: 5rem;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+
+    &:disabled {
+      opacity: 0.8;
+      cursor: auto;
+    }
+  }
+
+  .or {
+    display: block;
+    margin: 1rem 0 1.2rem;
+  }
+
+  .show-map {
+    padding-top: 0.5rem;
+    color: inherit;
   }
 }
 
@@ -172,30 +193,5 @@ export default {
 
 .tagline {
   font-size: 2rem;
-}
-
-button {
-  height: 5rem;
-  margin-bottom: 0;
-  font-size: 1.4rem;
-
-  &:disabled {
-    opacity: 0.8;
-    cursor: auto;
-  }
-}
-
-.or {
-  display: block;
-  margin: 1rem 0 1.2rem;
-}
-
-.action-map {
-  color: inherit;
-  width: 100%;
-}
-
-a {
-  color: inherit;
 }
 </style>
