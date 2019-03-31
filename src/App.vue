@@ -13,12 +13,12 @@
     <div class="map-wrapper">
       <toilet-map
         class="map"
+        :toilets="toilets"
+        :shown-toilets="sortedToilets"
         :location.sync="location"
         :center.sync="center"
-        :toilets="toilets"
         :highlight-toilet.sync="hoverToilet"
-        :shown-toilets="sortedToilets"
-        @toilet:click="onToiletClick"
+        :selected-toilet.sync="selectedToilet"
       ></toilet-map>
     </div>
 
@@ -27,7 +27,7 @@
       :location="location"
       :toilets="sortedToilets"
       :highlight-toilet.sync="hoverToilet"
-      @toilet:click="onToiletClick"
+      :selected-toilet.sync="selectedToilet"
     >
       <template v-slot:header>
         <app-bar class="header hide-when-vertical"></app-bar>
@@ -67,7 +67,8 @@ export default {
       showOverlay,
 
       // Toilet state
-      hoverToilet: null,
+      hoverToiletId: null,
+      selectedToiletId: null,
       shownItems: DEFAULT_RESULTS_COUNT,
 
       // Map related state
@@ -83,6 +84,30 @@ export default {
         .neighbors(lng, lat)
         .map(index => this.toilets[index])
         .slice(0, this.shownItems);
+    },
+
+    selectedToilet: {
+      get() {
+        if (this.selectedToiletId == null) return null;
+        return this.toilets.find(
+          cluster => cluster.id === this.selectedToiletId
+        );
+      },
+
+      set(id) {
+        this.selectedToiletId = id;
+      },
+    },
+
+    hoverToilet: {
+      get() {
+        if (this.hoverToiletId == null) return null;
+        return this.toilets.find(cluster => cluster.id === this.hoverToiletId);
+      },
+
+      set(id) {
+        this.hoverToiletId = id;
+      },
     },
   },
 
@@ -108,12 +133,6 @@ export default {
       this.location = newLocation;
     },
 
-    onToiletHover(index) {
-      this.hoverToilet = index;
-    },
-
-    onToiletClick() {},
-
     track() {
       this.$ga.page({
         page: window.location.pathname,
@@ -125,7 +144,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./skeleton";
+@import "./variables";
 
 html,
 body {

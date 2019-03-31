@@ -11,7 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./skeleton";
+@import "./variables";
 @import "./utils";
 
 .app-bar-container {

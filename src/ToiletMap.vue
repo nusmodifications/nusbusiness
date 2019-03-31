@@ -11,12 +11,34 @@
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       ></l-tile-layer>
 
+      <l-polyline
+        v-if="highlightToilet"
+        :key="'highlight-line-' + highlightToilet.id"
+        :lat-lngs="[location, highlightToilet.location]"
+      >
+        <l-tooltip :options="tooltipOptions">{{
+          distance(location, highlightToilet.location)
+        }}</l-tooltip>
+      </l-polyline>
+
+      <l-polyline
+        v-if="selectedToilet"
+        class-name="selected-distance"
+        :key="'selected-line-' + selectedToilet.id"
+        :lat-lngs="[location, selectedToilet.location]"
+      >
+        <l-tooltip :options="tooltipOptions">{{
+          distance(location, selectedToilet.location)
+        }}</l-tooltip>
+      </l-polyline>
+
       <l-marker
         v-for="cluster in toilets"
         :lat-lng="cluster.location"
+        :key="'marker-' + cluster.id"
         @mouseover="hoverToilet(cluster.id)"
         @mouseout="hoverToilet(null)"
-        @click="$event.originalEvent.preventDefault()"
+        @click="selectToilet($event, cluster.id)"
       >
         <l-icon :icon-size="iconSize" :class-name="markerClassName(cluster.id)">
           <img :src="markerUrl" alt="Toilet" />
@@ -33,15 +55,6 @@
         :radius="5"
         :fillOpacity="1"
       ></l-circle-marker>
-
-      <l-polyline
-        v-if="highlightToilet"
-        :lat-lngs="[location, highlightCluster.location]"
-      >
-        <l-tooltip :options="tooltipOptions">{{
-          distance(location, highlightCluster.location)
-        }}</l-tooltip>
-      </l-polyline>
     </l-map>
   </div>
 </template>
@@ -62,7 +75,11 @@ import markerUrl from "./icons/toilet.svg";
 import { distance, renderDistance } from "./utils";
 
 const iconSize = [24, 24];
-const tooltipOptions = { permanent: true, direction: "top", offset: [0, -5] };
+const tooltipOptions = {
+  permanent: true,
+  direction: "top",
+  offset: [0, -5],
+};
 
 export default {
   name: "ToiletMap",
@@ -78,7 +95,14 @@ export default {
     ToiletIndex,
   },
 
-  props: ["location", "center", "toilets", "shown-toilets", "highlight-toilet"],
+  props: [
+    "location",
+    "center",
+    "toilets",
+    "shown-toilets",
+    "highlight-toilet",
+    "selected-toilet",
+  ],
 
   created() {
     this.markerUrl = markerUrl;
@@ -87,10 +111,6 @@ export default {
   },
 
   computed: {
-    highlightCluster() {
-      return this.toilets.find(cluster => cluster.id === this.highlightToilet);
-    },
-
     shownToiletIds() {
       const idMap = new Map();
       this.shownToilets.forEach((cluster, index) =>
@@ -120,8 +140,9 @@ export default {
       this.$emit("update:highlight-toilet", index);
     },
 
-    clickToilet(index) {
-      this.$emit("toilet:click", index);
+    selectToilet(event, index) {
+      event.originalEvent.preventDefault();
+      this.$emit("update:selected-toilet", index);
     },
 
     distance(fromLatLng, toLatLng) {
@@ -154,5 +175,9 @@ export default {
     display: block;
     width: 100%;
   }
+}
+
+.selected-distance {
+  stroke: $nus-orange;
 }
 </style>

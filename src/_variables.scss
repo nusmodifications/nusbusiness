@@ -1,8 +1,13 @@
+@import "node_modules/skeleton-sass-official/skeleton/core/config"; // Skeleton Sass core loader
+
+// import default theme variables
+@import "node_modules/skeleton-sass-official/skeleton/themes/fresh/vars"; // theme variable overrides
+
 // http://www.nus.edu.sg/identity/colours.php
-$nus-orange: #EF7C00;
-$nus-blue: #003D7C;
-$nus-gold: #8E774D;
-$nus-silver: #908D8D;
+$nus-orange: #ef7c00;
+$nus-blue: #003d7c;
+$nus-gold: #8e774d;
+$nus-silver: #908d8d;
 
 $theme-primary: $nus-blue;
 

@@ -8,9 +8,13 @@
       <li
         v-for="(cluster, index) in toilets"
         :key="cluster.id"
-        :class="{ hover: highlightToilet === cluster.id }"
+        :class="{
+          hover: highlightToilet && highlightToilet.id === cluster.id,
+          selected: selectedToilet && selectedToilet.id === cluster.id,
+        }"
         @mouseover="hoverToilet(cluster.id)"
         @mouseout="hoverToilet(null)"
+        @click.prevent="selectToilet(cluster.id)"
       >
         <toilet-list-item
           :index="index + 1"
@@ -57,7 +61,7 @@ export default {
     ToiletListItem,
   },
 
-  props: ["location", "toilets", "highlight-toilet"],
+  props: ["location", "toilets", "highlight-toilet", "selected-toilet"],
 
   data() {
     return {};
@@ -70,6 +74,10 @@ export default {
 
     hoverToilet(index) {
       this.$emit("update:highlight-toilet", index);
+    },
+
+    selectToilet(index) {
+      this.$emit("update:selected-toilet", index);
     },
   },
 };
@@ -95,14 +103,19 @@ export default {
   }
 
   li {
-    padding: 0.5rem 1.2rem;
-    margin: 0.8rem;
-    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid transparent;
 
     &:hover,
     &.hover {
-      cursor: pointer;
       background: rgba($nus-orange, 0.2);
+    }
+
+    &.selected {
+      background: rgba($nus-blue, 0.2);
+      border: 1px solid rgba($nus-blue, 0.6);
     }
   }
 }
