@@ -184,12 +184,6 @@ export default {
       this.location = newLocation;
     },
 
-    onToiletHover(index) {
-      this.hoverToilet = index;
-    },
-
-    onToiletClick() {},
-
     getLocation() {
       this.isSearching = true;
 

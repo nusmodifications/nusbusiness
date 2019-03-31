@@ -100,8 +100,6 @@ export default {
 @import "./variables";
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
