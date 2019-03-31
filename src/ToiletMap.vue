@@ -154,12 +154,13 @@ export default {
 }
 
 .toilet-index {
+  $size: 2rem;
+
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  margin-top: 0.2rem;
+  width: $size;
+  height: $size;
   border-radius: 50%;
-  line-height: 1.9rem;
+  line-height: $size;
   color: #fff;
   font-weight: bold;
   background: $theme-primary;
