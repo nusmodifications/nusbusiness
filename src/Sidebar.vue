@@ -33,7 +33,7 @@
         title="Creative Commons BY 3.0"
         target="_blank"
         >CC 3.0 BY</a
-      >
+      >.
     </div>
   </div>
 </template>
@@ -73,6 +73,8 @@ export default {
 @import "./variables";
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   overflow: auto;
 }
 
@@ -98,7 +100,8 @@ export default {
 }
 
 .attribution {
-  opacity: 0.7;
-  margin: 4rem 2rem;
+  color: gray;
+  font-size: 1.3rem;
+  margin: auto 2rem 4rem 2rem;
 }
 </style>
