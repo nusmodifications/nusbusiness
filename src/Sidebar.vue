@@ -95,8 +95,9 @@ export default {
   }
 
   li {
-    padding: 0.5rem 0.8rem;
-    margin: 0;
+    padding: 0.5rem 1.2rem;
+    margin: 0.8rem;
+    border-radius: 5px;
 
     &:hover,
     &.hover {
@@ -112,7 +113,7 @@ export default {
   .attribution {
     color: gray;
     font-size: 1.3rem;
-    margin: 4rem 2rem;
+    margin: 2rem;
   }
 }
 </style>

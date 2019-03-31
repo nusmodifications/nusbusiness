@@ -64,10 +64,12 @@ export default {
 .table {
   width: 100%;
   margin: 0;
+  border-collapse: collapse;
 
   th,
   td {
-    padding: 0.2rem;
+    padding: 0.3rem 0;
+    border: none;
   }
 
   th {
