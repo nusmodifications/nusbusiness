@@ -90,6 +90,7 @@ export default {
     location(location) {
       const [lat, lng] = this.location;
       history.replaceState(null, "NUS Business", `map?lat=${lat}&lng=${lng}`);
+      this.track();
     },
   },
 
@@ -112,6 +113,13 @@ export default {
     },
 
     onToiletClick() {},
+
+    track() {
+      this.$ga.page({
+        page: window.location.pathname,
+        location: window.location.href,
+      });
+    },
   },
 };
 </script>

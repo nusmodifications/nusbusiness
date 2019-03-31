@@ -63,6 +63,7 @@ export default {
     close() {
       history.pushState(null, "NUS Business", "/map");
       this.$emit("close");
+      this.track();
     },
 
     getLocation() {
@@ -80,6 +81,15 @@ export default {
         // Pan map to current location
         this.$emit("location", [latitude, longitude]);
         this.close();
+
+        this.track();
+      });
+    },
+
+    track() {
+      this.$ga.page({
+        page: window.location.pathname,
+        location: window.location.href,
       });
     },
   },

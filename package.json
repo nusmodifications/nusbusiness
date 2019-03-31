@@ -30,6 +30,7 @@
     "normalize.css": "^8.0.1",
     "skeleton-sass-official": "^3.1.6",
     "vue": "^2.6.10",
+    "vue-analytics": "^5.16.4",
     "vue-hot-reload-api": "^2.3.3",
     "vue2-leaflet": "^2.0.2"
   },
