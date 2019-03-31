@@ -1,5 +1,5 @@
 <template>
-  <div class="overlay">
+  <div class="overlay unselectable">
     <div class="overlay-contents">
       <div class="title-container">
         <div class="left-pane">
@@ -98,6 +98,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "./skeleton";
+@import "./utils";
 
 .overlay {
   position: fixed;

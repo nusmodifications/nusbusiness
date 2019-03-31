@@ -1,6 +1,6 @@
 <template>
   <header class="app-bar-container">
-    <h3 class="logo">NUS Business</h3>
+    <h3 class="logo unselectable">NUS Business</h3>
   </header>
 </template>
 
@@ -12,6 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "./skeleton";
+@import "./utils";
 
 .app-bar-container {
   background-color: $theme-primary;
