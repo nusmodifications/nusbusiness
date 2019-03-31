@@ -61,8 +61,10 @@ export default {
   },
 
   data() {
+    // Don't show overlay when the user has passed in coords
+    const showOverlay = window.location.pathname !== "/map";
     return {
-      showOverlay: true,
+      showOverlay,
 
       // Toilet state
       hoverToilet: null,
@@ -81,6 +83,13 @@ export default {
         .neighbors(lng, lat)
         .map(index => this.toilets[index])
         .slice(0, this.shownItems);
+    },
+  },
+
+  watch: {
+    location(location) {
+      const [lat, lng] = this.location;
+      history.replaceState(null, "NUS Business", `map?lat=${lat}&lng=${lng}`);
     },
   },
 

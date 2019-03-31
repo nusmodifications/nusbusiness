@@ -18,9 +18,11 @@
           {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
         </button>
         <span class="or">or</span>
-        <button type="button" class="action-map" @click.prevent="close">
-          Just show me the map
-        </button>
+        <a href="/map">
+          <button type="button" class="action-map" @click.prevent="close">
+            Just show me the map
+          </button>
+        </a>
       </div>
     </div>
   </div>
@@ -48,6 +50,7 @@ export default {
 
   methods: {
     close() {
+      history.pushState(null, "NUS Business", "/map");
       this.$emit("close");
     },
 
@@ -130,6 +133,10 @@ export default {
   }
 
   .action-map {
+    color: inherit;
+  }
+
+  a {
     color: inherit;
   }
 }
