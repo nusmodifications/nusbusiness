@@ -8,7 +8,10 @@
 
     <table class="table">
       <tr v-for="name in sortedClusterNames">
-        <th>{{ name }}</th>
+        <th :class="'toilet-' + name.toLowerCase()">
+          <toilet-icon :type="name"></toilet-icon>
+          {{ name }}
+        </th>
         <td>{{ formatFloors(cluster.floors[name]) }}</td>
       </tr>
     </table>
@@ -17,12 +20,14 @@
 
 <script>
 import ToiletIndex from "./ToiletIndex";
+import ToiletIcon from "./ToiletIcon";
 import { deltas, floorName } from "./utils";
 
 export default {
   name: "ToiletListItem",
 
   components: {
+    ToiletIcon,
     ToiletIndex,
   },
 
@@ -34,9 +39,9 @@ export default {
       return Object.keys(this.cluster.floors).sort((a, b) => {
         const aIdx = preferredOrder.indexOf(a);
         const bIdx = preferredOrder.indexOf(b);
-        if (aIdx == -1 && bIdx == -1) return a.localeCompare(b);
-        if (aIdx == -1) return 1;
-        if (bIdx == -1) return -1;
+        if (aIdx === -1 && bIdx === -1) return a.localeCompare(b);
+        if (aIdx === -1) return 1;
+        if (bIdx === -1) return -1;
         return aIdx - bIdx;
       });
     },
@@ -96,10 +101,19 @@ export default {
   td {
     padding: 0;
     border: none;
+    font-weight: bold;
   }
 
   th {
-    width: 8rem;
+    width: 10rem;
   }
+}
+
+.toilet-male {
+  color: #2979ff;
+}
+
+.toilet-female {
+  color: #f50057;
 }
 </style>

@@ -3,7 +3,7 @@
     <l-map
       ref="map"
       :center="mapCenter"
-      :min-zoom="16"
+      :min-zoom="17"
       :zoom="18"
       @update:center="move"
       @click="onMapClick"
@@ -72,6 +72,7 @@ import {
   LTooltip,
   LIcon,
 } from "vue2-leaflet";
+
 import ToiletIndex from "./ToiletIndex";
 import markerUrl from "./icons/toilet.svg";
 import { distance, renderDistance } from "./utils";
