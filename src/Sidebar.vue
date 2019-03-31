@@ -2,6 +2,8 @@
   <div class="wrapper">
     <!--    <toilet-filters></toilet-filters>-->
 
+    <slot name="header"></slot>
+
     <ol class="toilet-list">
       <li
         v-for="(cluster, index) in toilets"

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="app-container">
     <transition name="fade">
       <overlay
         v-if="showOverlay"
@@ -8,15 +8,19 @@
       ></overlay>
     </transition>
 
-    <toilet-map
-      class="map"
-      :location.sync="location"
-      :center.sync="center"
-      :toilets="toilets"
-      :highlight-toilet.sync="hoverToilet"
-      :shown-toilets="sortedToilets"
-      @toilet:click="onToiletClick"
-    ></toilet-map>
+    <app-bar class="header hide-when-horizontal"></app-bar>
+
+    <div class="map-wrapper">
+      <toilet-map
+        class="map"
+        :location.sync="location"
+        :center.sync="center"
+        :toilets="toilets"
+        :highlight-toilet.sync="hoverToilet"
+        :shown-toilets="sortedToilets"
+        @toilet:click="onToiletClick"
+      ></toilet-map>
+    </div>
 
     <sidebar
       class="sidebar"
@@ -24,14 +28,19 @@
       :toilets="sortedToilets"
       :highlight-toilet.sync="hoverToilet"
       @toilet:click="onToiletClick"
-    />
+    >
+      <template v-slot:header>
+        <app-bar class="header hide-when-vertical"></app-bar>
+      </template>
+    </sidebar>
   </div>
 </template>
 
 <script>
+import AppBar from "./AppBar";
+import Overlay from "./Overlay";
 import ToiletMap from "./ToiletMap";
 import Sidebar from "./Sidebar";
-import Overlay from "./Overlay";
 import clusters from "./clusters";
 
 const DEFAULT_RESULTS_COUNT = 5;
@@ -46,6 +55,7 @@ export default {
 
   components: {
     Overlay,
+    AppBar,
     ToiletMap,
     Sidebar,
   },
@@ -100,44 +110,61 @@ export default {
 <style lang="scss" scoped>
 @import "./skeleton";
 
-$sidebar-width: 30rem;
-
-.map,
-.sidebar {
-  position: fixed;
+html,
+body {
+  height: 100%;
 }
 
-.map {
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: $sidebar-width;
-}
+.app-container {
+  height: 100%;
 
-.sidebar {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: $sidebar-width;
-}
-
-@media only screen and (max-width: $tablet-width) {
-  $bottom-bar-height: 50%;
-
-  .map {
+  .header {
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
-    bottom: $bottom-bar-height;
-    left: 0;
-    right: 0;
-    width: inherit;
+    z-index: 5000; // Raise above map
   }
 
-  .sidebar {
-    top: 100% - $bottom-bar-height;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: inherit;
+  @media only screen and (max-width: $tablet-width - 1) {
+    display: flex;
+    flex-direction: column;
+
+    .hide-when-vertical {
+      display: none;
+    }
+
+    .map-wrapper {
+      flex: 1;
+      min-height: 40vh;
+      display: grid; // HACK: Without this, the map disappears for some reason.
+    }
+  }
+
+  @media only screen and (min-width: $tablet-width) {
+    .hide-when-horizontal {
+      display: none;
+    }
+
+    $sidebar-width: 30rem;
+
+    .map,
+    .sidebar {
+      position: fixed;
+    }
+
+    .map {
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: $sidebar-width;
+    }
+
+    .sidebar {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: $sidebar-width;
+    }
   }
 }
 </style>
