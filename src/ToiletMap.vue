@@ -168,7 +168,8 @@ export default {
   transition: opacity 0.5s;
   text-align: center;
 
-  &.shown {
+  &.shown,
+  &.selected {
     opacity: 1;
   }
 

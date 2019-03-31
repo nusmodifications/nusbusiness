@@ -22,6 +22,23 @@
           :distance="distance(cluster.location, location)"
         />
       </li>
+
+      <li
+        v-if="showSelectedToilet"
+        :class="{
+          hover: highlightToilet && highlightToilet.id === selectedToilet.id,
+          selected: true,
+        }"
+        @mouseover="hoverToilet(selectedToilet.id)"
+        @mouseout="hoverToilet(null)"
+        @click.prevent="selectToilet(selectedToilet.id)"
+      >
+        <toilet-list-item
+          index="?"
+          :cluster="selectedToilet"
+          :distance="distance(selectedToilet.location, location)"
+        />
+      </li>
     </ol>
 
     <div class="show-more-wrapper">
@@ -74,8 +91,13 @@ export default {
 
   props: ["location", "toilets", "highlight-toilet", "selected-toilet"],
 
-  data() {
-    return {};
+  computed: {
+    showSelectedToilet() {
+      return (
+        this.selectedToilet &&
+        !this.toilets.find(cluster => cluster.id === this.selectedToilet.id)
+      );
+    },
   },
 
   methods: {
@@ -120,6 +142,7 @@ export default {
     margin: 0;
     cursor: pointer;
     border: 1px solid transparent;
+    transition: all 0.3s;
 
     &:hover,
     &.hover {
