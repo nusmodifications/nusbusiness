@@ -18,22 +18,26 @@
       </li>
     </ol>
 
-    <div class="attribution">
-      Icons made by
-      <a
-        href="https://www.flaticon.com/authors/kiranshastry"
-        title="Kiranshastry"
-        >Kiranshastry</a
-      >
-      from
-      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-      is licensed by
-      <a
-        href="http://creativecommons.org/licenses/by/3.0/"
-        title="Creative Commons BY 3.0"
-        target="_blank"
-        >CC 3.0 BY</a
-      >.
+    <div class="attribution-container">
+      <div class="attribution">
+        Icons made by
+        <a
+          href="https://www.flaticon.com/authors/kiranshastry"
+          title="Kiranshastry"
+          >Kiranshastry</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+        is licensed by
+        <a
+          href="http://creativecommons.org/licenses/by/3.0/"
+          title="Creative Commons BY 3.0"
+          target="_blank"
+          >CC 3.0 BY</a
+        >.
+      </div>
     </div>
   </div>
 </template>
@@ -75,7 +79,8 @@ export default {
 .wrapper {
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .toilet-list {
@@ -99,9 +104,13 @@ export default {
   }
 }
 
-.attribution {
-  color: gray;
-  font-size: 1.3rem;
-  margin: auto 2rem 4rem 2rem;
+.attribution-container {
+  margin-top: auto;
+
+  .attribution {
+    color: gray;
+    font-size: 1.3rem;
+    margin: 4rem 2rem;
+  }
 }
 </style>
