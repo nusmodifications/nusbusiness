@@ -98,6 +98,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./skeleton";
+
 $sidebar-width: 30rem;
 
 .map,
@@ -117,5 +119,25 @@ $sidebar-width: 30rem;
   bottom: 0;
   left: 0;
   width: $sidebar-width;
+}
+
+@media only screen and (max-width: $tablet-width) {
+  $bottom-bar-height: 50%;
+
+  .map {
+    top: 0;
+    bottom: $bottom-bar-height;
+    left: 0;
+    right: 0;
+    width: inherit;
+  }
+
+  .sidebar {
+    top: 100% - $bottom-bar-height;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: inherit;
+  }
 }
 </style>
