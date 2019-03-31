@@ -50,7 +50,7 @@ export default {
   mounted() {
     this.intervalId = setInterval(() => {
       this.taglineIndex = (this.taglineIndex + 1) % TAGLINES.length;
-    }, 8000);
+    }, 5000);
   },
 
   beforeDestroy() {

@@ -1,7 +1,8 @@
 <template>
   <div>
     <l-map
-      :center="center"
+      ref="map"
+      :center="mapCenter"
       :min-zoom="16"
       :zoom="18"
       @update:center="move"
@@ -109,6 +110,7 @@ export default {
     this.markerUrl = markerUrl;
     this.iconSize = iconSize;
     this.tooltipOptions = tooltipOptions;
+    this.mapCenter = this.center;
   },
 
   computed: {
@@ -121,6 +123,12 @@ export default {
     },
   },
 
+  watch: {
+    center(newCenter) {
+      this.$refs.map.mapObject.panTo(newCenter);
+    },
+  },
+
   methods: {
     move(center) {
       history.replaceState(
@@ -128,8 +136,6 @@ export default {
         "NUS Business",
         `map?lat=${center.lat}&lng=${center.lng}`
       );
-
-      this.$emit("update:center", center);
     },
 
     onMapClick(evt) {
