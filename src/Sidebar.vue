@@ -24,10 +24,12 @@
       </li>
     </ol>
 
-    <button class="show-more" @click.prevent="showMoreToilets">
-      Show more<br />
-      business opportunities
-    </button>
+    <div class="show-more-wrapper">
+      <button class="show-more" @click.prevent="showMoreToilets">
+        Show more<br />
+        business opportunities
+      </button>
+    </div>
 
     <div class="attribution-container">
       <div class="attribution">
@@ -114,7 +116,7 @@ export default {
   }
 
   li {
-    padding: 1rem 1.2rem;
+    padding: 1.3rem 2rem;
     margin: 0;
     cursor: pointer;
     border: 1px solid transparent;
@@ -131,16 +133,22 @@ export default {
   }
 }
 
-.show-more {
-  margin: 0 1rem;
-  line-height: 1.4;
-  height: 6rem;
-  font-size: 1.4rem;
+.show-more-wrapper {
   width: 100%; // The button won't span the entire width on mobile
+  display: flex;
 
-  &:hover,
-  &:active {
-    color: unset;
+  .show-more {
+    padding: 0;
+    margin: 0 2rem;
+    line-height: 1.4;
+    height: 6rem;
+    font-size: 1.4rem;
+    flex: 1;
+
+    &:hover,
+    &:active {
+      color: unset;
+    }
   }
 }
 
