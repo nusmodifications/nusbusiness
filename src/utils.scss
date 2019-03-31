@@ -8,3 +8,10 @@
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
 }
+
+.white-svg {
+  // Turn it white.
+  // Source: https://codepen.io/sosuke/pen/Pjoqqp
+  filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(192deg)
+    brightness(108%) contrast(100%);
+}

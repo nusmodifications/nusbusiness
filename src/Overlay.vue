@@ -9,7 +9,7 @@
           </h1>
         </div>
         <div class="right-pane">
-          <img class="toilet" :src="markerUrl" alt="Toilet" />
+          <img class="toilet white-svg" :src="toiletUrl" alt="Toilet" />
         </div>
       </div>
 
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import markerUrl from "./icons/toilet.svg";
+import toiletUrl from "./icons/toilet.svg";
 
 const TAGLINES = [
   "Catering to your business, no matter how big or small",
@@ -42,7 +42,7 @@ export default {
   name: "Overlay",
 
   created() {
-    this.markerUrl = markerUrl;
+    this.toiletUrl = toiletUrl;
   },
 
   data() {
@@ -143,11 +143,6 @@ export default {
   max-width: 11em;
   height: auto;
   transform: scale(-1, 1);
-
-  // Turn it white.
-  // Source: https://codepen.io/sosuke/pen/Pjoqqp
-  filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(192deg)
-    brightness(108%) contrast(100%);
 }
 
 .title {

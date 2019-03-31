@@ -32,6 +32,10 @@
     <div class="attribution-container">
       <div class="attribution">
         Icons made by
+        <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons"
+          >Smashicons</a
+        >
+        and
         <a
           href="https://www.flaticon.com/authors/kiranshastry"
           title="Kiranshastry"

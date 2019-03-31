@@ -10,14 +10,25 @@
       ></overlay>
     </transition>
 
-    <app-bar class="header hide-when-horizontal">
+    <app-bar class="header app-bar hide-when-horizontal">
       <button
         type="button"
-        class="button-primary"
+        class="locate-button"
         @click.prevent="getLocation"
         :disabled="isSearching"
       >
-        {{ isSearching ? "Hold on to your butts..." : "Find my ass" }}
+        <img
+          v-if="isSearching"
+          :src="spinnerIconUrl"
+          class="spinner white-svg"
+          alt="Hold your butts..."
+        />
+        <img
+          v-else
+          :src="navigationIconUrl"
+          class="white-svg"
+          alt="Locate me"
+        />
       </button>
     </app-bar>
 
@@ -42,16 +53,29 @@
       @show-more="shownItems += 5"
     >
       <template v-slot:header>
-        <app-bar class="header hide-when-vertical">
-          <button
-            type="button"
-            class="button-primary"
-            @click.prevent="getLocation"
-            :disabled="isSearching"
-          >
-            {{ isSearching ? "Hold on to your butts..." : "Find my ass" }}
-          </button>
-        </app-bar>
+        <div class="header">
+          <app-bar class="app-bar hide-when-vertical">
+            <button
+              type="button"
+              class="locate-button"
+              @click.prevent="getLocation"
+              :disabled="isSearching"
+            >
+              <img
+                v-if="isSearching"
+                :src="spinnerIconUrl"
+                class="spinner white-svg"
+                alt="Hold your butts..."
+              />
+              <img
+                v-else
+                :src="navigationIconUrl"
+                class="white-svg"
+                alt="Locate me"
+              />
+            </button>
+          </app-bar>
+        </div>
       </template>
     </sidebar>
   </div>
@@ -63,6 +87,9 @@ import Overlay from "./Overlay";
 import ToiletMap from "./ToiletMap";
 import Sidebar from "./Sidebar";
 import clusters from "./clusters";
+
+import navigationIconUrl from "./icons/navigation.svg";
+import spinnerIconUrl from "./icons/spinner.svg";
 
 const DEFAULT_RESULTS_COUNT = 5;
 
@@ -144,6 +171,8 @@ export default {
   created() {
     this.toilets = clusters.toilets;
     this.toiletIndex = clusters.index;
+    this.navigationIconUrl = navigationIconUrl;
+    this.spinnerIconUrl = spinnerIconUrl;
   },
 
   methods: {
@@ -192,6 +221,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "./variables";
+@import "./trig";
 
 html,
 body {
@@ -201,11 +231,45 @@ body {
 .app-container {
   height: 100%;
 
+  // Header wrapper necessary due to weird bug on Safari/Chrome on iOS and macOS.
   .header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 5000; // Raise above map
+  }
+
+  .app-bar {
+    display: flex;
+    align-items: center;
+  }
+
+  .locate-button {
+    display: flex;
+    height: auto;
+    padding: 1rem;
+    margin: 0 0 0 auto;
+
+    img {
+      height: 2rem;
+      padding: 0;
+    }
+
+    .spinner {
+      $square-padding: 0.2676rem;
+      padding-bottom: $square-padding; // By trial and error. Try to make the image a square
+      margin-bottom: -$square-padding; // Prevent image from changing height of parent element
+
+      -webkit-animation: rotation 0.5s infinite linear;
+      @-webkit-keyframes rotation {
+        from {
+          -webkit-transform: rotate(0deg);
+        }
+        to {
+          -webkit-transform: rotate(359deg);
+        }
+      }
+    }
   }
 
   @media only screen and (max-width: $tablet-width - 1) {
