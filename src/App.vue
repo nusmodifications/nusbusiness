@@ -301,7 +301,7 @@ body {
       display: none;
     }
 
-    $sidebar-width: 30rem;
+    $sidebar-width: 32rem;
 
     .map,
     .sidebar {

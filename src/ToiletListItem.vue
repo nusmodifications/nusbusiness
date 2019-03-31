@@ -99,13 +99,14 @@ export default {
 
   th,
   td {
-    padding: 0;
+    padding: 0.2rem 0;
     border: none;
     font-weight: bold;
   }
 
   th {
-    width: 10rem;
+    width: 11rem;
+    padding-left: 0.5rem;
   }
 }
 
