@@ -32,10 +32,10 @@
     <div class="attribution-container">
       <div class="attribution">
         Icons made by
+        <a href="https://www.freepik.com/" title="Freepik">Freepik</a>,
         <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons"
           >Smashicons</a
-        >
-        and
+        >, and
         <a
           href="https://www.flaticon.com/authors/kiranshastry"
           title="Kiranshastry"
@@ -45,7 +45,7 @@
         <a href="https://www.flaticon.com/" title="Flaticon"
           >www.flaticon.com</a
         >
-        is licensed by
+        are licensed by
         <a
           href="http://creativecommons.org/licenses/by/3.0/"
           title="Creative Commons BY 3.0"
