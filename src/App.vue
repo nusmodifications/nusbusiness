@@ -284,8 +284,12 @@ body {
     }
 
     .map-wrapper {
-      flex: 1;
-      height: 60vh;
+      $map-height: 60vh;
+
+      // Need to declare twice because .map's 100% height needs the parent
+      // to have an explicit height declared
+      flex: 0 0 $map-height;
+      height: $map-height;
     }
 
     .map {

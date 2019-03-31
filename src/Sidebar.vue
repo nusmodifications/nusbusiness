@@ -136,6 +136,7 @@ export default {
   line-height: 1.4;
   height: 6rem;
   font-size: 1.4rem;
+  width: 100%; // The button won't span the entire width on mobile
 
   &:hover,
   &:active {
