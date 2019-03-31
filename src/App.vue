@@ -5,10 +5,21 @@
         v-if="showOverlay"
         @location="locationUpdated"
         @close="closeOverlay"
+        @locate="getLocation"
+        @toilet:click="onToiletClick"
       ></overlay>
     </transition>
 
-    <app-bar class="header hide-when-horizontal"></app-bar>
+    <app-bar class="header hide-when-horizontal">
+      <button
+        type="button"
+        class="button-primary"
+        @click.prevent="getLocation"
+        :disabled="isSearching"
+      >
+        {{ isSearching ? "Hold on to your butts..." : "Find my ass" }}
+      </button>
+    </app-bar>
 
     <div class="map-wrapper">
       <toilet-map
@@ -31,7 +42,16 @@
       @show-more="shownItems += 5"
     >
       <template v-slot:header>
-        <app-bar class="header hide-when-vertical"></app-bar>
+        <app-bar class="header hide-when-vertical">
+          <button
+            type="button"
+            class="button-primary"
+            @click.prevent="getLocation"
+            :disabled="isSearching"
+          >
+            {{ isSearching ? "Hold on to your butts..." : "Find my ass" }}
+          </button>
+        </app-bar>
       </template>
     </sidebar>
   </div>
@@ -66,6 +86,7 @@ export default {
     const showOverlay = window.location.pathname !== "/map";
     return {
       showOverlay,
+      isSearching: false,
 
       // Toilet state
       hoverToiletId: null,
@@ -132,6 +153,31 @@ export default {
 
     locationUpdated(newLocation) {
       this.location = newLocation;
+    },
+
+    onToiletHover(index) {
+      this.hoverToilet = index;
+    },
+
+    onToiletClick() {},
+
+    getLocation() {
+      this.isSearching = true;
+
+      navigator.geolocation.getCurrentPosition(
+        position => {
+          const { latitude, longitude } = position.coords;
+          const location = [latitude, longitude];
+          this.locationUpdated(location);
+          this.center = location; // Pan map to current location
+          this.isSearching = false;
+        },
+        error => {
+          console.error("KENA ERROR finding them", error);
+          alert("Cannot find you. Did you block us?");
+          this.isSearching = false;
+        }
+      );
     },
 
     track() {

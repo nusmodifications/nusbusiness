@@ -15,13 +15,8 @@
 
       <p class="tagline">{{ tagline }}</p>
 
-      <button
-        type="button"
-        class="button-primary"
-        @click.prevent="getLocation"
-        :disabled="isSearching"
-      >
-        {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
+      <button type="button" class="button-primary" @click.prevent="getLocation">
+        Use my location
       </button>
       <span class="or">or</span>
       <a href="/map" class="button show-map" @click.prevent="close">
@@ -53,7 +48,6 @@ export default {
   data() {
     return {
       tagline: TAGLINES[Math.floor(Math.random() * TAGLINES.length)],
-      isSearching: false,
     };
   },
 
@@ -65,23 +59,8 @@ export default {
     },
 
     getLocation() {
-      this.isSearching = true;
-
-      navigator.geolocation.getCurrentPosition(position => {
-        const { latitude, longitude } = position.coords;
-
-        history.pushState(
-          null,
-          "NUS Business",
-          `map?lat=${latitude}&lng=${longitude}`
-        );
-
-        // Pan map to current location
-        this.$emit("location", [latitude, longitude]);
-        this.close();
-
-        this.track();
-      });
+      this.close();
+      this.$emit("locate");
     },
 
     track() {

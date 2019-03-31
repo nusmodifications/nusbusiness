@@ -1,6 +1,7 @@
 <template>
   <header class="app-bar-container">
     <h3 class="logo unselectable">NUS Business</h3>
+    <slot></slot>
   </header>
 </template>
 
