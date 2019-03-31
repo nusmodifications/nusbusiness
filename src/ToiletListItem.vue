@@ -7,9 +7,9 @@
     </p>
 
     <table class="table">
-      <tr v-for="(floors, name) in cluster.floors">
+      <tr v-for="name in sortedClusterNames">
         <th>{{ name }}</th>
-        <td>{{ formatFloors(floors) }}</td>
+        <td>{{ formatFloors(cluster.floors[name]) }}</td>
       </tr>
     </table>
   </div>
@@ -27,6 +27,20 @@ export default {
   },
 
   props: ["index", "cluster", "distance"],
+
+  computed: {
+    sortedClusterNames() {
+      const preferredOrder = ["Unisex", "Male", "Female", "Handicap", "Staff"];
+      return Object.keys(this.cluster.floors).sort((a, b) => {
+        const aIdx = preferredOrder.indexOf(a);
+        const bIdx = preferredOrder.indexOf(b);
+        if (aIdx == -1 && bIdx == -1) return a.localeCompare(b);
+        if (aIdx == -1) return 1;
+        if (bIdx == -1) return -1;
+        return aIdx - bIdx;
+      });
+    },
+  },
 
   methods: {
     formatFloors(floors) {
