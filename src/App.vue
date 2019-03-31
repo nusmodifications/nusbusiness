@@ -112,8 +112,8 @@ export default {
   },
 
   watch: {
-    location(location) {
-      const [lat, lng] = this.location;
+    location(newLocation) {
+      const [lat, lng] = newLocation;
       history.replaceState(null, "NUS Business", `map?lat=${lat}&lng=${lng}`);
       this.track();
     },
