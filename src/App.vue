@@ -6,7 +6,6 @@
         @location="locationUpdated"
         @close="closeOverlay"
         @locate="getLocation"
-        @toilet:click="onToiletClick"
       ></overlay>
     </transition>
 

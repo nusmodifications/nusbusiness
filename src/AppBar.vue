@@ -14,7 +14,6 @@ export default {
 <style lang="scss" scoped>
 @import "./utils";
 @import "./variables";
-@import "./utils";
 
 .app-bar-container {
   background-color: $theme-primary;
