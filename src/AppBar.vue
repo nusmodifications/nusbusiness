@@ -11,6 +11,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./utils";
 @import "./variables";
 @import "./utils";
 
