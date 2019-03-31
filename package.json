@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "parcel *.html",
-    "build": "parcel build *.html",
+    "dev": "parcel --no-source-maps *.html",
+    "build": "parcel build *.html --no-source-maps ",
     "prettify": "prettier --write *.js src/**.js src/**.vue"
   },
   "devDependencies": {
