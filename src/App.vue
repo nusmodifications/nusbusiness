@@ -172,8 +172,11 @@ body {
 
     .map-wrapper {
       flex: 1;
-      min-height: 40vh;
-      display: grid; // HACK: Without this, the map disappears for some reason.
+      min-height: 60vh;
+    }
+
+    .map {
+      height: 100%;
     }
   }
 

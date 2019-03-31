@@ -26,7 +26,7 @@
 
     <button class="show-more" @click.prevent="showMoreToilets">
       Show more<br />
-      businesses opportunities
+      business opportunities
     </button>
 
     <div class="attribution-container">
@@ -112,19 +112,19 @@ export default {
   }
 
   li {
-    padding: 0.8rem 1.2rem;
+    padding: 1rem 1.2rem;
     margin: 0;
     cursor: pointer;
     border: 1px solid transparent;
 
     &:hover,
     &.hover {
-      background: rgba($nus-orange, 0.2);
+      background: rgba($nus-blue, 0.2);
     }
 
     &.selected {
-      background: rgba($nus-blue, 0.2);
-      border: 1px solid rgba($nus-blue, 0.6);
+      background: rgba($nus-orange, 0.2);
+      border: 1px solid rgba($nus-orange, 0.6);
     }
   }
 }

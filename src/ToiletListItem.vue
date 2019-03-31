@@ -69,7 +69,7 @@ export default {
 
 .title {
   display: flex;
-  margin: 0.6rem 0 0.4rem 0;
+  margin: 0 0 0.8rem 0;
   font-weight: bold;
 }
 
@@ -94,7 +94,7 @@ export default {
 
   th,
   td {
-    padding: 0.3rem 0;
+    padding: 0;
     border: none;
   }
 

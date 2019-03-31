@@ -43,7 +43,8 @@
         <l-icon :icon-size="iconSize" :class-name="markerClassName(cluster.id)">
           <img :src="markerUrl" alt="Toilet" />
           <toilet-index
-            v-if="shownToiletIds.has(cluster.id)"
+            v-show="shownToiletIds.has(cluster.id)"
+            class="toilet-index"
             :index="shownToiletIds.get(cluster.id)"
           ></toilet-index>
         </l-icon>
@@ -151,8 +152,8 @@ export default {
 
     markerClassName(id) {
       return classnames("toilet-marker", {
-        toiletMarker: true,
         shown: this.shownToiletIds.has(id),
+        selected: this.selectedToilet.id === id,
       });
     },
   },
@@ -169,6 +170,10 @@ export default {
 
   &.shown {
     opacity: 1;
+  }
+
+  &.selected .toilet-index {
+    background: $nus-orange;
   }
 
   img {
