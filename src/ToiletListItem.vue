@@ -51,19 +51,26 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "./variables";
+
 .title {
-  margin: 0;
-  font-size: 2rem;
+  display: flex;
+  margin: 0.6rem 0 0.4rem 0;
   font-weight: bold;
 }
 
 .index {
+  font-size: 2rem;
 }
 
 .name {
+  margin: 0 0.9rem;
+  font-size: 2rem;
 }
 
 .distance {
+  margin-left: auto;
+  color: $nus-silver;
 }
 
 .table {
