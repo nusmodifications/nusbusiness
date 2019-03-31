@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="title">
-      <span class="index">{{ index }}</span>
+      <toilet-index class="index" :index="index"></toilet-index>
       <span class="name">{{ cluster.name }}</span>
       <span class="distance">{{ distance }}</span>
     </p>
@@ -16,10 +16,15 @@
 </template>
 
 <script>
+import ToiletIndex from "./ToiletIndex";
 import { deltas, floorName } from "./utils";
 
 export default {
   name: "ToiletListItem",
+
+  components: {
+    ToiletIndex,
+  },
 
   props: ["index", "cluster", "distance"],
 

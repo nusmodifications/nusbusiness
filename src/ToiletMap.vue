@@ -20,9 +20,10 @@
       >
         <l-icon :icon-size="iconSize" :class-name="markerClassName(cluster.id)">
           <img :src="markerUrl" alt="Toilet" />
-          <span v-if="shownToiletIds.has(cluster.id)" class="toilet-index">{{
-            shownToiletIds.get(cluster.id)
-          }}</span>
+          <toilet-index
+            v-if="shownToiletIds.has(cluster.id)"
+            :index="shownToiletIds.get(cluster.id)"
+          ></toilet-index>
         </l-icon>
       </l-marker>
 
@@ -56,6 +57,7 @@ import {
   LTooltip,
   LIcon,
 } from "vue2-leaflet";
+import ToiletIndex from "./ToiletIndex";
 import markerUrl from "./icons/toilet.svg";
 import { distance, renderDistance } from "./utils";
 
@@ -73,6 +75,7 @@ export default {
     LPolyline,
     LTooltip,
     LIcon,
+    ToiletIndex,
   },
 
   props: ["location", "center", "toilets", "shown-toilets", "highlight-toilet"],
@@ -151,18 +154,5 @@ export default {
     display: block;
     width: 100%;
   }
-}
-
-.toilet-index {
-  $size: 2rem;
-
-  display: inline-block;
-  width: $size;
-  height: $size;
-  border-radius: 50%;
-  line-height: $size;
-  color: #fff;
-  font-weight: bold;
-  background: $theme-primary;
 }
 </style>

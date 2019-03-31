@@ -102,7 +102,7 @@ export default {
     &:hover,
     &.hover {
       cursor: pointer;
-      background: rgba($theme-primary, 0.2);
+      background: rgba($nus-orange, 0.2);
     }
   }
 }
