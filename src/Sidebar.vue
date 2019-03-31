@@ -24,6 +24,11 @@
       </li>
     </ol>
 
+    <button class="show-more" @click.prevent="showMoreToilets">
+      Show more<br />
+      businesses opportunities
+    </button>
+
     <div class="attribution-container">
       <div class="attribution">
         Icons made by
@@ -79,6 +84,10 @@ export default {
     selectToilet(index) {
       this.$emit("update:selected-toilet", index);
     },
+
+    showMoreToilets() {
+      this.$emit("show-more");
+    },
   },
 };
 </script>
@@ -95,7 +104,7 @@ export default {
 
 .toilet-list {
   padding: 0;
-  margin: 0;
+  margin: 0 0 1rem;
   list-style: none;
 
   p {
@@ -117,6 +126,18 @@ export default {
       background: rgba($nus-blue, 0.2);
       border: 1px solid rgba($nus-blue, 0.6);
     }
+  }
+}
+
+.show-more {
+  margin: 0 1rem;
+  line-height: 1.4;
+  height: 6rem;
+  font-size: 1.4rem;
+
+  &:hover,
+  &:active {
+    color: unset;
   }
 }
 

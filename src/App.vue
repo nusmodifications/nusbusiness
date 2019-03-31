@@ -28,6 +28,7 @@
       :toilets="sortedToilets"
       :highlight-toilet.sync="hoverToilet"
       :selected-toilet.sync="selectedToilet"
+      @show-more="shownItems += 5"
     >
       <template v-slot:header>
         <app-bar class="header hide-when-vertical"></app-bar>
