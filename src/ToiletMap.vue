@@ -51,8 +51,8 @@
       </l-marker>
 
       <l-circle-marker
+        class-name="location-marker"
         :lat-lng="location"
-        :stroke="false"
         :radius="5"
         :fillOpacity="1"
       ></l-circle-marker>
@@ -114,8 +114,8 @@ export default {
   computed: {
     shownToiletIds() {
       const idMap = {};
-      this.shownToilets.forEach((cluster, index) =>
-        idMap[cluster.id] = index + 1
+      this.shownToilets.forEach(
+        (cluster, index) => (idMap[cluster.id] = index + 1)
       );
       return idMap;
     },
@@ -184,5 +184,21 @@ export default {
 
 .selected-distance {
   stroke: $nus-orange;
+}
+
+.location-marker {
+  animation: glow 3s infinite;
+}
+
+@keyframes glow {
+  from {
+    stroke-width: 0;
+    stroke-opacity: 0.8;
+  }
+
+  to {
+    stroke-width: 20px;
+    stroke-opacity: 0;
+  }
 }
 </style>
