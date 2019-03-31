@@ -59,7 +59,6 @@ export default {
     },
 
     getLocation() {
-      this.close();
       this.$emit("locate");
     },
 

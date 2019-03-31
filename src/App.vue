@@ -21,7 +21,7 @@
           v-if="isSearching"
           :src="spinnerIconUrl"
           class="spinner white-svg"
-          alt="Hold your butts..."
+          alt="Hold onto your butts..."
         />
         <img
           v-else
@@ -145,6 +145,7 @@ export default {
 
       set(id) {
         this.selectedToiletId = id;
+        this.center = this.selectedToilet.location;
       },
     },
 
@@ -193,21 +194,27 @@ export default {
           const location = [latitude, longitude];
           this.locationUpdated(location);
           this.center = location; // Pan map to current location
+
+          this.showOverlay = false;
           this.isSearching = false;
         },
         error => {
           console.error("KENA ERROR finding them", error);
-          alert("Cannot find you. Did you block us?");
+          alert(
+            "Cannot find you. Did you remember to give us permission to use your location?"
+          );
           this.isSearching = false;
         }
       );
     },
 
     track() {
-      this.$ga.page({
-        page: window.location.pathname,
-        location: window.location.href,
-      });
+      if (this.$ga) {
+        this.$ga.page({
+          page: window.location.pathname,
+          location: window.location.href,
+        });
+      }
     },
   },
 };
@@ -220,6 +227,16 @@ export default {
 html,
 body {
   height: 100%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 .app-container {
@@ -254,15 +271,7 @@ body {
       padding-bottom: $square-padding; // By trial and error. Try to make the image a square
       margin-bottom: -$square-padding; // Prevent image from changing height of parent element
 
-      -webkit-animation: rotation 0.5s infinite linear;
-      @-webkit-keyframes rotation {
-        from {
-          -webkit-transform: rotate(0deg);
-        }
-        to {
-          -webkit-transform: rotate(359deg);
-        }
-      }
+      animation: rotation 0.5s infinite linear;
     }
   }
 
