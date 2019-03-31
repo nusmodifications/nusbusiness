@@ -1,34 +1,41 @@
 <template>
   <div class="overlay">
     <div class="overlay-contents">
-      <h1 class="title">
-        NUS<br />
-        Business
-      </h1>
+      <div class="title-container">
+        <div class="left-pane">
+          <h1 class="title">
+            NUS<br />
+            Business
+          </h1>
+        </div>
+        <div class="right-pane">
+          <img class="toilet" :src="markerUrl" alt="Toilet" />
+        </div>
+      </div>
 
       <p class="tagline">{{ tagline }}</p>
 
-      <div class="actions">
-        <button
-          type="button"
-          class="button-primary"
-          @click.prevent="getLocation"
-          :disabled="isSearching"
-        >
-          {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
+      <button
+        type="button"
+        class="button-primary"
+        @click.prevent="getLocation"
+        :disabled="isSearching"
+      >
+        {{ isSearching ? "Hold on to your butts..." : "Use my location" }}
+      </button>
+      <span class="or">or</span>
+      <a href="/map">
+        <button type="button" class="action-map" @click.prevent="close">
+          Just show me the map
         </button>
-        <span class="or">or</span>
-        <a href="/map">
-          <button type="button" class="action-map" @click.prevent="close">
-            Just show me the map
-          </button>
-        </a>
-      </div>
+      </a>
     </div>
   </div>
 </template>
 
 <script>
+import markerUrl from "./icons/toilet.svg";
+
 const TAGLINES = [
   "Catering to your business, no matter how big or small",
   "Take your business anywhere",
@@ -40,6 +47,10 @@ const TAGLINES = [
 
 export default {
   name: "Overlay",
+
+  created() {
+    this.markerUrl = markerUrl;
+  },
 
   data() {
     return {
@@ -76,7 +87,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "./variables";
+@import "./skeleton";
 
 .overlay {
   position: fixed;
@@ -89,6 +100,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   background: $theme-primary;
 }
@@ -96,10 +108,35 @@ export default {
 .overlay-contents {
   color: #fff;
   width: 80%;
-  max-width: 80rem;
+  max-width: 50rem;
 
   display: flex;
   flex-direction: column;
+
+  .title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .left-pane {
+      flex-grow: 1;
+    }
+
+    .right-pane {
+      flex-basis: 0;
+    }
+  }
+}
+
+.toilet {
+  max-width: 11em;
+  height: auto;
+  transform: scale(-1, 1);
+
+  // Turn it white.
+  // Source: https://codepen.io/sosuke/pen/Pjoqqp
+  filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(192deg)
+    brightness(108%) contrast(100%);
 }
 
 .title {
@@ -109,35 +146,45 @@ export default {
   font-size: 7rem;
   text-align: left;
   line-height: 1;
+  width: 100%;
+}
+
+@media only screen and (max-width: $tablet-width) {
+  .toilet {
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+  }
 }
 
 .tagline {
   font-size: 2rem;
 }
 
-.actions {
-  button {
-    height: 5rem;
-    margin-bottom: 0;
-    font-size: 1.4rem;
+button {
+  height: 5rem;
+  margin-bottom: 0;
+  font-size: 1.4rem;
 
-    &:disabled {
-      opacity: 0.8;
-      cursor: auto;
-    }
+  &:disabled {
+    opacity: 0.8;
+    cursor: auto;
   }
+}
 
-  .or {
-    display: block;
-    margin: 1rem 0 1.2rem;
-  }
+.or {
+  display: block;
+  margin: 1rem 0 1.2rem;
+}
 
-  .action-map {
-    color: inherit;
-  }
+.action-map {
+  color: inherit;
+  width: 100%;
+}
 
-  a {
-    color: inherit;
-  }
+a {
+  color: inherit;
 }
 </style>
