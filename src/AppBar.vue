@@ -19,7 +19,7 @@ export default {
 .app-bar-container {
   background-color: $theme-primary;
   color: white;
-  padding: 1.3rem;
+  padding: 1.3rem 2rem;
 
   .logo {
     font-size: 2.7rem;
