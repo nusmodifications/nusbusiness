@@ -169,7 +169,8 @@ export default {
     flex: 1;
 
     &:hover,
-    &:active {
+    &:active,
+    &:focus {
       color: unset;
     }
   }
